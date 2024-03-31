@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import { withBase } from 'vitepress'
 import { data as posts } from './post.data'
 import FontistoDate from './components/FontistoDate.vue'
@@ -8,11 +8,17 @@ import ArcticonsBook from './components/ArcticonsBook.vue'
 const page = ref(1);
 const per_page = ref(10);
 const total = posts.length;
-const pages = total % per_page.value === 0 ? total / per_page.value : Math.ceil(total / per_page.value) + 1;
-console.log('posts', posts);
+
 const current_posts = computed(() => {
   return posts.slice((page.value - 1) * per_page.value, page.value * per_page.value);
 });
+
+const onPageChange = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
 
 </script>
 
@@ -51,9 +57,20 @@ const current_posts = computed(() => {
         <a class="btn" :href="withBase(post.url)">阅读全文»</a>
       </div>
     </div>
+    <a-pagination @change="onPageChange" v-model:current="page" class="pagination" :total="total" show-jumper />
   </div>
 </template>
 <style lang="scss" scoped>
+.pagination {
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  ::v-deep(.arco-pagination-item) {
+    margin-top: 0;
+  }
+}
+
 .custom-home {
   max-width: 860px;
   margin: 0 auto;
@@ -71,9 +88,11 @@ const current_posts = computed(() => {
   transition: all .3s;
   background-color: var(--vp-c-bg);
   cursor: pointer;
+
   &:hover {
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
   }
+
   a {
     color: inherit;
     text-decoration: none;
@@ -92,6 +111,7 @@ const current_posts = computed(() => {
     display: inline-block;
     position: relative;
     vertical-align: top;
+
     &::before {
       background: var(--custom-title);
       bottom: 0;
@@ -157,14 +177,17 @@ const current_posts = computed(() => {
   .meta-icon {
     margin-right: 3px;
   }
+
   &-item {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+
     svg {
       width: 14px;
       height: 14px;
     }
+
     &+&::before {
       content: '|';
       margin: 0 5px;
