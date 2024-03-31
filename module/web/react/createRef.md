@@ -1,7 +1,6 @@
 ---
 title: 从createRef方法来理解js的内存操作
 date: 2022-07-18
-categories:
 tags:
   - React
   - JavaScript

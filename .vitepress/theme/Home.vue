@@ -9,7 +9,7 @@ const page = ref(1);
 const per_page = ref(10);
 const total = posts.length;
 const pages = total % per_page.value === 0 ? total / per_page.value : Math.ceil(total / per_page.value) + 1;
-
+console.log('posts', posts);
 const current_posts = computed(() => {
   return posts.slice((page.value - 1) * per_page.value, page.value * per_page.value);
 });
