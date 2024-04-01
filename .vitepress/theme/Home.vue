@@ -1,10 +1,11 @@
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { ref, computed } from 'vue';
 import { withBase } from 'vitepress'
 import { data as posts } from './post.data'
 import FontistoDate from './components/FontistoDate.vue'
 import MdiTag from './components/MdiTag.vue'
 import ArcticonsBook from './components/ArcticonsBook.vue'
+
 const page = ref(1);
 const per_page = ref(10);
 const total = posts.length;
@@ -20,11 +21,15 @@ const onPageChange = () => {
   })
 }
 
+const onJump2Article = (post) => {
+  window.location.href = withBase(post.url)
+}
+
 </script>
 
 <template>
   <div class="vp-doc custom-home">
-    <div class="abstract-item" v-for="(post, index) in current_posts" :key="index">
+    <div class="abstract-item" @click="onJump2Article(post)" v-for="(post, index) in current_posts" :key="index">
       <div class="post-title">
         <a :href="withBase(post.url)" class="post-title-link">
           {{ post.title }}
@@ -74,6 +79,12 @@ const onPageChange = () => {
 .custom-home {
   max-width: 860px;
   margin: 0 auto;
+  ::v-deep(h1) {
+    display: none;
+  }
+  ::v-deep(nav) {
+    display: none;
+  }
 }
 
 .abstract-item {
