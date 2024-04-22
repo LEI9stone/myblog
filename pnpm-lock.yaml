@@ -8,6 +8,9 @@ dependencies:
   '@arco-design/web-vue':
     specifier: ^2.55.1
     version: 2.55.1(vue@3.4.21)
+  lodash-es:
+    specifier: ^4.17.21
+    version: 4.17.21
 
 devDependencies:
   less:
@@ -1073,6 +1076,10 @@ packages:
       needle: 3.3.1
       source-map: 0.6.1
     dev: true
+
+  /lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==, tarball: https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz}
+    dev: false
 
   /magic-string@0.30.8:
     resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==, tarball: https://registry.npmmirror.com/magic-string/-/magic-string-0.30.8.tgz}

@@ -18,6 +18,7 @@
     "vitepress": "^1.0.1"
   },
   "dependencies": {
-    "@arco-design/web-vue": "^2.55.1"
+    "@arco-design/web-vue": "^2.55.1",
+    "lodash-es": "^4.17.21"
   }
 }

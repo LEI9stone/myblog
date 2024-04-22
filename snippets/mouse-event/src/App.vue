@@ -1,30 +1,31 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import ChangeSize from './ChangeSize.vue';
+import ChangeWidth from './ChangeWidth.vue';
+import ChangeHeight from './ChangeHeight.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <a-tabs>
+    <a-tab-pane key="size" title="改变大小">
+      <a-tabs>
+        <a-tab-pane key="size_width" title="宽度改变">
+          <ChangeWidth />
+        </a-tab-pane>
+        <a-tab-pane key="size_height" title="高度改变">
+          <ChangeHeight />
+        </a-tab-pane>
+        <a-tab-pane key="size_all" title="最终交互">
+          <ChangeSize />
+        </a-tab-pane>
+      </a-tabs>
+    </a-tab-pane>
+  </a-tabs>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style scoped lang="scss">
+.arco-tabs {
+  width: 1180px;
+  min-width: 100vh;
+  margin: 0 auto;
 }
 </style>

@@ -143,6 +143,7 @@ export default defineConfig({
 	vite: {
 		server: {
 			host: "0.0.0.0",
+			port: "10011"
 		},
 		resolve: {
 			alias: [
