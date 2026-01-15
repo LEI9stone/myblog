@@ -62,6 +62,16 @@ export default defineConfig({
 					text: "web",
 					items: [
 						{
+							text: "Next.js",
+							collapsed: false,
+							items: [
+								{
+									text: "Redis + Next.js 学习笔记与总结",
+									link: "/web/nextjs/redis",
+								},
+							],
+						},
+						{
 							text: "JavaScript",
 							collapsed: false,
 							items: [
