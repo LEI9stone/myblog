@@ -105,6 +105,20 @@ export default defineConfig({
 							],
 						},
 						{
+							text: "CSS",
+							collapsed: false,
+							items: [
+								{
+									text: "实现多行文本溢出",
+									link: "/web/css/实现多行文本溢出",
+								},
+								{
+									text: "保持图片宽高比并自适应屏幕",
+									link: "/web/css/保持图片宽高比并自适应屏幕",
+								},
+							],
+						},
+						{
 							text: "Vue",
 							collapsed: false,
 							items: [
