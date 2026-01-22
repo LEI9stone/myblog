@@ -1,6 +1,11 @@
 import { fileURLToPath, URL } from "node:url";
+import { dirname, resolve } from "node:path";
 import { defineConfig } from "vitepress";
+import { withPwa } from "@vite-pwa/vitepress";
 import container from "markdown-it-container";
+
+// 项目根目录（.vitepress 的父目录）
+const __dirname = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 function createContainer(klass, defaultTitle, md) {
 	return [
@@ -37,7 +42,7 @@ function containerPlugin(md, options, containerOptions) {
 }
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
 	srcDir: "module",
 	title: "小磊",
 	description: "小磊的个人博客",
@@ -187,4 +192,94 @@ export default defineConfig({
 			],
 		},
 	},
-});
+	// PWA 配置 - 实现离线访问
+	pwa: {
+		// 输出目录（与 VitePress 的 outDir 保持一致）
+		outDir: resolve(__dirname, ".vitepress/dist"),
+		// 注册类型：自动更新
+		registerType: "autoUpdate",
+		// 包含的资源类型
+		includeAssets: ["favicon.svg", "robots.txt"],
+		// Web App Manifest 配置
+		manifest: {
+			name: "小磊的博客",
+			short_name: "小磊博客",
+			description: "小磊的个人博客",
+			theme_color: "#667eea",
+			background_color: "#ffffff",
+			display: "standalone",
+			start_url: "/",
+			icons: [
+				{
+					src: "/favicon.svg",
+					sizes: "any",
+					type: "image/svg+xml",
+					purpose: "any maskable",
+				},
+			],
+		},
+		// Workbox 配置 - 缓存策略
+		workbox: {
+			// 缓存所有页面资源
+			globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
+			// 运行时缓存配置
+			runtimeCaching: [
+				{
+					// 缓存页面导航请求
+					urlPattern: /^https?:\/\/.*\/.*\.html$/i,
+					handler: "NetworkFirst",
+					options: {
+						cacheName: "html-cache",
+						expiration: {
+							maxEntries: 100,
+							maxAgeSeconds: 60 * 60 * 24 * 30, // 30 天
+						},
+						cacheableResponse: {
+							statuses: [0, 200],
+						},
+					},
+				},
+				{
+					// 缓存图片
+					urlPattern: /\.(?:png|jpg|jpeg|svg|gif|webp)$/i,
+					handler: "CacheFirst",
+					options: {
+						cacheName: "images-cache",
+						expiration: {
+							maxEntries: 100,
+							maxAgeSeconds: 60 * 60 * 24 * 30, // 30 天
+						},
+						cacheableResponse: {
+							statuses: [0, 200],
+						},
+					},
+				},
+				{
+					// 缓存 JS 和 CSS
+					urlPattern: /\.(?:js|css)$/i,
+					handler: "StaleWhileRevalidate",
+					options: {
+						cacheName: "static-resources",
+						expiration: {
+							maxEntries: 100,
+							maxAgeSeconds: 60 * 60 * 24 * 30, // 30 天
+						},
+						cacheableResponse: {
+							statuses: [0, 200],
+						},
+					},
+				},
+			],
+		},
+		// 开发环境配置
+		devOptions: {
+			enabled: true,
+			suppressWarnings: true,
+			navigateFallback: "/",
+		},
+		// 实验性选项 - 防止未缓存页面布局错乱
+		experimental: {
+			includeAllowlist: true,
+		},
+	},
+}));
