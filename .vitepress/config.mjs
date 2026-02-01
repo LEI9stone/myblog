@@ -147,7 +147,10 @@ export default withPwa(defineConfig({
 						{ text: "中国近代史", link: "/book/中国近代史" },
 						{ text: "陈行甲传记", link: "/book/陈行甲传记" },
 						{ text: "法治的细节", link: "/book/法治的细节" },
-						{ text: "育儿百科", link: "/book/育儿百科/" },
+						{ text: "育儿百科", link: "/book/育儿百科/", collapsed: false, items: [
+							{ text: "最好的礼物", link: "/book/育儿百科/" },
+							{ text: "分娩和分娩后", link: "/book/育儿百科/0001" },
+						]},
 					],
 				},
 			],
