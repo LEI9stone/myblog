@@ -165,6 +165,7 @@ export default withPwa(
                 items: [
                   { text: "豆芽烧牛肉", link: "/book/家常菜/豆芽烧牛肉" },
                   { text: "西蓝花虾仁", link: "/book/家常菜/西蓝花虾仁" },
+                  { text: "猪肉炖粉条", link: "/book/家常菜/猪肉炖粉条" },
                 ],
               },
             ],
