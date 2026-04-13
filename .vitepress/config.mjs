@@ -169,6 +169,11 @@ export default withPwa(
                 ],
               },
               {
+                text: '非暴力沟通',
+                link: '/book/非暴力沟通/',
+                collapsed: false,
+              },
+              {
                 text: '家常菜',
                 link: '/book/家常菜/',
                 collapsed: false,
