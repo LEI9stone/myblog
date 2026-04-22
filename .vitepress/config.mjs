@@ -179,6 +179,8 @@ export default withPwa(
                     items: [
                       { text: '每日复盘模板', link: '/book/非暴力沟通/everyday-tmp' },
                       { text: '静思己过模板', link: '/book/非暴力沟通/静思己过' },
+                      { text: '睡前冥想式复盘模板', link: '/book/非暴力沟通/meditation' },
+                      { text: '自我对话（防内耗）模版', link: '/book/非暴力沟通/myself' },
                     ]
                   },
                 ],
