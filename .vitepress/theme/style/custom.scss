@@ -1,20 +1,39 @@
 .note-block {
 	position: relative;
 	padding: 0 32px;
+
 	svg {
 		position: absolute;
 		top: 8px;
 		left: 0;
 	}
+
 	blockquote {
 		background-color: var(--vp-c-default-3);
 		border-color: var(--vp-c-brand-3);
 		border-left-width: 7px;
 		border-left-style: solid;
 		padding: 5px 10px;
-		
-    & > p {
-      font-size: 14px;
-    }
+
+		&>p {
+			font-size: var(--vp-custom-block-font-size);
+		}
+	}
+}
+
+.vp-doc {
+	
+
+	blockquote {
+		background-color: var(--vp-c-default-3);
+		border-color: var(--vp-c-brand-3);
+		border-left-width: 7px;
+		border-left-style: solid;
+		padding: 5px 10px;
+		font-size: var(--vp-custom-block-font-size);
+
+		&>p {
+			font-size: var(--vp-custom-block-font-size);
+		}
 	}
 }
