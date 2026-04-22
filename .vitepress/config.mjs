@@ -172,6 +172,16 @@ export default withPwa(
                 text: '非暴力沟通',
                 link: '/book/非暴力沟通/',
                 collapsed: false,
+                items: [
+                  {
+                    text: "模板",
+                    collapsed: true,
+                    items: [
+                      { text: '每日复盘模板', link: '/book/非暴力沟通/everyday-tmp' },
+                      { text: '静思己过模板', link: '/book/非暴力沟通/静思己过' },
+                    ]
+                  },
+                ],
               },
               {
                 text: '家常菜',
