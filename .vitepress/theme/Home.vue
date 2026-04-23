@@ -57,7 +57,7 @@ const onJump2Article = (post) => {
           <span class="meta-tag" v-for="tag in post.tags">{{ tag }}</span>
         </span>
       </div>
-      <div v-html="post.excerpt"></div>
+      <div class="post-excerpt" v-html="post.excerpt"></div>
       <div class="post-button">
         <a class="btn" :href="withBase(post.url)">阅读全文»</a>
       </div>
@@ -68,8 +68,8 @@ const onJump2Article = (post) => {
 <style lang="scss" scoped>
 .pagination {
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
   ::v-deep(.arco-pagination-item) {
     margin-top: 0;
@@ -77,8 +77,9 @@ const onJump2Article = (post) => {
 }
 
 .custom-home {
-  max-width: 860px;
+  max-width: 760px;
   margin: 0 auto;
+  padding-top: 12px;
   ::v-deep(h1) {
     display: none;
   }
@@ -89,8 +90,8 @@ const onJump2Article = (post) => {
 
 .abstract-item {
   position: relative;
-  margin: 0 auto 40px;
-  padding: 16px 20px;
+  margin: 0 auto 16px;
+  padding: 10px 14px;
   width: 100%;
   overflow: hidden;
   border-radius: 4px;
@@ -108,12 +109,66 @@ const onJump2Article = (post) => {
     color: inherit;
     text-decoration: none;
   }
+
+  .post-excerpt {
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--vp-c-text-2);
+    max-height: 4.8em;
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+
+    ::v-deep(h1),
+    ::v-deep(h2),
+    ::v-deep(h3),
+    ::v-deep(h4),
+    ::v-deep(h5),
+    ::v-deep(h6) {
+      font-size: 14px;
+      line-height: 1.55;
+      margin: 0;
+      padding: 0;
+      border: none;
+      font-weight: 600;
+    }
+
+    ::v-deep(p),
+    ::v-deep(ul),
+    ::v-deep(ol) {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    ::v-deep(ul),
+    ::v-deep(ol) {
+      padding-left: 1.1rem;
+    }
+
+    ::v-deep(li) {
+      margin: 0;
+    }
+
+    ::v-deep(div[class*='language-']) {
+      display: none;
+    }
+
+    ::v-deep(pre) {
+      display: none;
+    }
+
+    ::v-deep(img) {
+      display: none;
+    }
+  }
 }
 
 .post-title {
   width: 100%;
-  font-size: 24px;
-  line-height: 46px;
+  font-size: 18px;
+  line-height: 1.5;
   display: inline-block;
   text-align: center;
 
@@ -154,7 +209,7 @@ const onJump2Article = (post) => {
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
-  margin: 3px 0 60px 0;
+  margin: 0 0 8px 0;
   justify-content: center;
 
   .meta-tag {
@@ -162,11 +217,11 @@ const onJump2Article = (post) => {
     display: inline-flex;
     align-items: center;
     box-sizing: border-box;
-    height: 24px;
-    padding: 0 8px;
+    height: 20px;
+    padding: 0 6px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 18px;
     vertical-align: middle;
     border: 1px solid transparent;
     border-radius: 2px;
@@ -207,7 +262,7 @@ const onJump2Article = (post) => {
 }
 
 .post-button {
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
 
   .btn {
@@ -217,8 +272,8 @@ const onJump2Article = (post) => {
     color: #fff;
     display: inline-block;
     font-size: 12px;
-    line-height: 2;
-    padding: 0 20px;
+    line-height: 1.7;
+    padding: 0 14px;
     text-decoration: none;
     transition-property: background-color;
     transition-delay: 0s;

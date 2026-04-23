@@ -172,7 +172,42 @@ export default withPwa(
                 text: '非暴力沟通',
                 link: '/book/非暴力沟通/',
                 collapsed: false,
-                items: [{ text: '阅后感', link: '/book/非暴力沟通/阅后感' }],
+                items: [
+                  { text: '阅后感', link: '/book/非暴力沟通/阅后感' },
+                  {
+                    text: '模板',
+                    collapsed: true,
+                    items: [
+                      {
+                        text: '每日复盘模板',
+                        link: '/book/非暴力沟通/everyday-tmp',
+                      },
+                      {
+                        text: '静思己过模板',
+                        link: '/book/非暴力沟通/静思己过',
+                      },
+                      {
+                        text: '睡前冥想式复盘模板',
+                        link: '/book/非暴力沟通/meditation',
+                      },
+                      {
+                        text: '自我对话（防内耗）模版',
+                        link: '/book/非暴力沟通/myself',
+                      },
+                    ],
+                  },
+                  {
+                    text: '重点事情梳理',
+                    link: '/book/非暴力沟通/key-points/',
+                    collapsed: true,
+                    items: [
+                      {
+                        text: '重点事情梳理',
+                        link: '/book/非暴力沟通/key-points/2026-04-23',
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 text: '家常菜',
