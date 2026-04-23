@@ -172,6 +172,7 @@ export default withPwa(
                 text: '非暴力沟通',
                 link: '/book/非暴力沟通/',
                 collapsed: false,
+                items: [{ text: '阅后感', link: '/book/非暴力沟通/阅后感' }],
               },
               {
                 text: '家常菜',
