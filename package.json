@@ -16,7 +16,8 @@
     "less": "^4.2.0",
     "markdown-it-container": "^4.0.0",
     "sass": "^1.83.0",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid-diagram": "^0.3.2"
   },
   "dependencies": {
     "@arco-design/web-vue": "^2.55.1",

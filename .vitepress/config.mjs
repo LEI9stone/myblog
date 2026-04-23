@@ -2,6 +2,7 @@ import { fileURLToPath, URL } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { defineConfig } from 'vitepress';
 import { withPwa } from '@vite-pwa/vitepress';
+import { diagramPlugin } from 'vitepress-plugin-mermaid-diagram';
 import container from 'markdown-it-container';
 
 // 项目根目录（.vitepress 的父目录）
@@ -47,9 +48,11 @@ export default withPwa(
     srcDir: 'module',
     title: '小磊',
     description: '小磊的个人博客',
+    head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
     markdown: {
       lineNumbers: true, // 显示代码行数,
-      preConfig(md) {
+      config(md) {
+        md.use(diagramPlugin, {preview: true});
         md.use(containerPlugin);
       },
     },
@@ -345,7 +348,8 @@ export default withPwa(
       },
       // 开发环境配置
       devOptions: {
-        enabled: true,
+        // 开发期关闭 SW，避免拦截 /@fs 模块请求导致 HMR/依赖缓存异常
+        enabled: false,
         suppressWarnings: true,
         navigateFallback: '/',
       },
