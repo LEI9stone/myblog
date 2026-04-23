@@ -202,7 +202,7 @@ export default withPwa(
                     collapsed: true,
                     items: [
                       {
-                        text: '重点事情梳理',
+                        text: '2026-04-23',
                         link: '/book/非暴力沟通/key-points/2026-04-23',
                       },
                     ],
