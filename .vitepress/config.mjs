@@ -183,6 +183,14 @@ export default withPwa(
                       { text: '自我对话（防内耗）模版', link: '/book/非暴力沟通/myself' },
                     ]
                   },
+                  { 
+                    text: '重点事情梳理',
+                    link: '/book/非暴力沟通/key-points/',
+                    collapsed: true,
+                    items: [
+                      { text: '重点事情梳理', link: '/book/非暴力沟通/key-points/2026-04-23' },
+                    ],
+                  },
                 ],
               },
               {
