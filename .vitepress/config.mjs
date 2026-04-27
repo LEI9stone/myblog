@@ -48,11 +48,13 @@ export default withPwa(
     srcDir: 'module',
     title: '小磊',
     description: '小磊的个人博客',
-    head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
+    head: [
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ],
     markdown: {
       lineNumbers: true, // 显示代码行数,
       config(md) {
-        md.use(diagramPlugin, {preview: true});
+        md.use(diagramPlugin, { preview: true });
         md.use(containerPlugin);
       },
     },
@@ -183,19 +185,19 @@ export default withPwa(
                     items: [
                       {
                         text: '每日复盘模板',
-                        link: '/book/非暴力沟通/everyday-tmp',
+                        link: '/book/非暴力沟通/templates/everyday-tmp',
                       },
                       {
                         text: '静思己过模板',
-                        link: '/book/非暴力沟通/静思己过',
+                        link: '/book/非暴力沟通/templates/静思己过',
                       },
                       {
                         text: '睡前冥想式复盘模板',
-                        link: '/book/非暴力沟通/meditation',
+                        link: '/book/非暴力沟通/templates/meditation',
                       },
                       {
                         text: '自我对话（防内耗）模版',
-                        link: '/book/非暴力沟通/myself',
+                        link: '/book/非暴力沟通/templates/myself',
                       },
                     ],
                   },
