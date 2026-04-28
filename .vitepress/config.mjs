@@ -212,6 +212,17 @@ export default withPwa(
                       },
                     ],
                   },
+                  {
+                    text: '日记',
+                    link: '/book/非暴力沟通/diary/',
+                    collapsed: true,
+                    items: [
+                      {
+                        text: '2026-04-29',
+                        link: '/book/非暴力沟通/diary/26-04/29',
+                      },
+                    ],
+                  },
                 ],
               },
               {
