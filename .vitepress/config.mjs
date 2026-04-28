@@ -63,6 +63,7 @@ export default withPwa(
       nav: [
         { text: '首页', link: '/' },
         { text: 'web', link: '/web/js/var' },
+        { text: 'flutter', link: '/flutter/index' },
         { text: 'http', link: '/http/cache' },
         { text: '阅读', link: '/book/中国近代史' },
       ],
@@ -153,6 +154,14 @@ export default withPwa(
                   },
                 ],
               },
+            ],
+          },
+        ],
+        '/flutter/': [
+          {
+            text: 'flutter',
+            items: [
+              { text: 'flutter应用开发指南', link: '/flutter/index' },
             ],
           },
         ],
