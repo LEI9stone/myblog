@@ -23,8 +23,7 @@ tags:
 ## 1. 项目结构与工程化概念映射
 
 - [1.1 `package.json` vs `pubspec.yaml`](./项目结构与工程化/001-package.json-vs-pubspec.yaml.md)
-
-### 1.2 npm/yarn/pnpm vs pub
+- [1.2 npm/yarn/pnpm vs pub](./项目结构与工程化/002-npm-vs-pub.md)
 
 ### 1.3 Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构
 

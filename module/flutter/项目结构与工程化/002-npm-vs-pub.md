@@ -1,0 +1,148 @@
+---
+title: npm/yarn/pnpm vs pub
+date: 2024-04-29
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# npm/yarn/pnpm vs pub
+
+`npm`、`yarn`、`pnpm` 是 JavaScript/Node 生态的包管理工具。
+
+`pub` 是 Dart/Flutter 生态的包管理工具，Flutter 项目通常通过 `flutter pub` 使用它。
+
+可以这样映射：
+
+| Web / Node                                           | Flutter / Dart           |
+| ---------------------------------------------------- | ------------------------ |
+| npm / yarn / pnpm                                    | pub                      |
+| npm registry                                         | pub.dev                  |
+| `package.json`                                       | `pubspec.yaml`           |
+| `package-lock.json` / `yarn.lock` / `pnpm-lock.yaml` | `pubspec.lock`           |
+| `node_modules/`                                      | Pub cache                |
+| `dependencies`                                       | `dependencies`           |
+| `devDependencies`                                    | `dev_dependencies`       |
+| `npm install`                                        | `flutter pub get`        |
+| `npm install axios`                                  | `flutter pub add dio`    |
+| `npm uninstall axios`                                | `flutter pub remove dio` |
+| `npm update`                                         | `flutter pub upgrade`    |
+| `npm outdated`                                       | `flutter pub outdated`   |
+
+常用命令映射：
+
+| Web                   | Flutter                            |
+| --------------------- | ---------------------------------- |
+| `npm install`         | `flutter pub get`                  |
+| `pnpm install`        | `flutter pub get`                  |
+| `yarn install`        | `flutter pub get`                  |
+| `npm install axios`   | `flutter pub add dio`              |
+| `npm install -D vite` | `flutter pub add dev:build_runner` |
+| `npm uninstall axios` | `flutter pub remove dio`           |
+| `npm update`          | `flutter pub upgrade`              |
+| `npm outdated`        | `flutter pub outdated`             |
+| `npm cache clean`     | `flutter pub cache clean`          |
+| `npm list`            | `flutter pub deps`                 |
+
+Flutter 里最常见的是：
+
+```bash
+flutter pub get
+```
+
+它类似于：
+
+```bash
+npm install
+pnpm install
+yarn install
+```
+
+作用是根据 `pubspec.yaml` 和 `pubspec.lock` 拉取依赖。
+
+添加依赖：
+
+```bash
+flutter pub add dio
+```
+
+类似于：
+
+```bash
+npm install axios
+```
+
+添加开发依赖：
+
+```bash
+flutter pub add dev:build_runner
+```
+
+类似于：
+
+```bash
+npm install -D build-runner
+```
+
+删除依赖：
+
+```bash
+flutter pub remove dio
+```
+
+类似于：
+
+```bash
+npm uninstall axios
+```
+
+查看可升级依赖：
+
+```bash
+flutter pub outdated
+```
+
+类似于：
+
+```bash
+npm outdated
+```
+
+升级依赖：
+
+```bash
+flutter pub upgrade
+```
+
+类似于：
+
+```bash
+npm update
+```
+
+不过要注意：
+
+```text
+pub 没有 node_modules 目录。
+```
+
+Dart/Flutter 依赖通常会被下载到全局 Pub cache 中，而不是每个项目生成一个庞大的 `node_modules/`。
+
+锁文件对应关系：
+
+| Web                 | Flutter        |
+| ------------------- | -------------- |
+| `package-lock.json` | `pubspec.lock` |
+| `yarn.lock`         | `pubspec.lock` |
+| `pnpm-lock.yaml`    | `pubspec.lock` |
+
+`pubspec.yaml` 表示你声明想要什么依赖，`pubspec.lock` 锁定实际安装到的版本。
+
+一句话理解：
+
+```text
+npm/yarn/pnpm 是 JavaScript 生态的包管理器；
+pub 是 Dart/Flutter 生态的包管理器；
+Flutter 项目日常基本都用 flutter pub 命令。
+```

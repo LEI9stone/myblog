@@ -194,6 +194,10 @@ export default withPwa(
                     text: 'package.json vs pubspec.yaml',
                     link: '/flutter/项目结构与工程化/001-package.json-vs-pubspec.yaml',
                   },
+                  {
+                    text: 'npm/yarn/pnpm vs pub',
+                    link: '/flutter/项目结构与工程化/002-npm-vs-pub',
+                  },
                 ],
               },
             ],
