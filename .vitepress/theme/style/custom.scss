@@ -57,9 +57,17 @@
 		margin: 6px 0;
 	}
 
+	ul.todo-list {
+		padding-left: 0;
+	}
+
 	li {
 		margin: 2px 0;
 		line-height: 1.6;
+	}
+
+	li.todo-list-item {
+		list-style: none;
 	}
 
 	li+li {
