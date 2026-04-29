@@ -181,6 +181,10 @@ export default withPwa(
                     text: 'SPA 应用结构 vs Flutter 应用结构',
                     link: '/flutter/web到Flutter的心智模型迁移/004-SPA应用结构vsFlutter应用结构',
                   },
+                  {
+                    text: 'React/Vue/Svelte 开发体验 vs Flutter 开发体验',
+                    link: '/flutter/web到Flutter的心智模型迁移/005-React&Vue&Svelte开发体验vsFlutter开发体验',
+                  },
                 ],
               },
             ],
