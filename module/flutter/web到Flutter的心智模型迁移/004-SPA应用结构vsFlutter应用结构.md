@@ -1,0 +1,112 @@
+---
+title: SPA 应用结构 vs Flutter 应用结构
+date: 2024-04-29
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# SPA 应用结构 vs Flutter 应用结构
+
+SPA 通常是一个入口文件挂载整个前端应用，然后由路由、页面、组件、状态管理和 API 层共同组织业务。
+
+Flutter 应用也类似：一个入口函数启动整个 App，然后由路由、页面 Widget、业务组件、状态管理和数据层组织业务。
+
+可以这样映射：
+
+| SPA                               | Flutter                            |
+| --------------------------------- | ---------------------------------- |
+| `index.html`                      | 原生宿主入口                       |
+| `main.tsx` / `main.js`            | `main.dart`                        |
+| `createRoot(...).render(<App />)` | `runApp(const App())`              |
+| `App.tsx`                         | `App` Widget                       |
+| React Router / Vue Router         | go_router / Navigator              |
+| Page Component                    | Page Widget / Screen Widget        |
+| UI Component                      | Widget                             |
+| Hooks / Store                     | Riverpod / Notifier / State        |
+| API Client                        | Dio Client / Repository            |
+| DTO / Types                       | Model / Freezed / JsonSerializable |
+| localStorage / IndexedDB          | shared_preferences / drift         |
+| CSS / Tailwind / CSS Modules      | Theme / TextStyle / BoxDecoration  |
+| public/assets                     | assets/                            |
+
+典型 SPA 结构：
+
+```text
+src/
+  main.tsx
+  App.tsx
+  routes/
+  pages/
+  components/
+  hooks/
+  stores/
+  services/
+  types/
+  assets/
+```
+
+典型 Flutter 结构：
+
+```text
+lib/
+  main.dart
+  app.dart
+  core/
+    router/
+    theme/
+    widgets/
+    network/
+    storage/
+  features/
+    home/
+      presentation/
+      application/
+      domain/
+      data/
+```
+
+心智映射可以简化成：
+
+```text
+SPA = Router + Pages + Components + State + API
+Flutter = Router + Pages + Widgets + State + Repository
+```
+
+如果你熟悉 React，Flutter 的结构会比较容易理解：
+
+| React 项目概念               | Flutter 项目概念                    |
+| ---------------------------- | ----------------------------------- |
+| `App.tsx` 负责应用骨架       | `app.dart` 负责应用骨架             |
+| `routes.tsx` 负责页面映射    | `router_provider.dart` 负责路由映射 |
+| `pages/HomePage.tsx`         | `home_page.dart`                    |
+| `components/ProductCard.tsx` | `product_card.dart`                 |
+| `hooks/useProducts.ts`       | `products_provider.dart`            |
+| `services/productApi.ts`     | `product_repository.dart`           |
+| `types/product.ts`           | `product_model.dart`                |
+
+主要区别：
+
+Web SPA 面向浏览器页面组织应用；Flutter 面向原生 App 组织应用。
+
+SPA 里的页面最终会变成 DOM；Flutter 里的页面最终会变成 Widget Tree，再由 Flutter 引擎绘制。
+
+所以 Flutter 应用结构不是：
+
+```text
+HTML 页面 + CSS 样式 + JS 逻辑
+```
+
+而是：
+
+```text
+Dart 入口 + Widget 页面 + 状态管理 + 数据层 + 原生平台能力
+```
+
+一句话理解：
+
+```text
+Flutter App 很像一个没有 DOM 和 CSS 的 SPA，
+只是页面、组件、样式、状态都由 Dart 和 Widget 体系承载。
+```
