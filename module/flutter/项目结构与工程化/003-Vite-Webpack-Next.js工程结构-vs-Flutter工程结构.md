@@ -1,0 +1,272 @@
+---
+title: Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构
+date: 2024-04-29
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构
+
+Web 项目的工程结构通常围绕浏览器入口、构建工具、页面、组件和静态资源组织。
+
+Flutter 项目的工程结构围绕 Dart 入口、跨平台应用代码、平台工程和资源声明组织。
+
+可以这样映射：
+
+| Web 工程            | Flutter 工程                          |
+| ------------------- | ------------------------------------- |
+| `package.json`      | `pubspec.yaml`                        |
+| `index.html`        | Android/iOS 原生宿主入口              |
+| `src/main.tsx`      | `lib/main.dart`                       |
+| `src/App.tsx`       | `lib/app.dart`                        |
+| `src/pages/`        | `lib/features/*/presentation/pages/`  |
+| `src/components/`   | `lib/core/widgets/` / feature widgets |
+| `src/router/`       | `lib/core/router/`                    |
+| `src/store/`        | `lib/*/application/` / providers      |
+| `src/services/`     | `lib/*/data/` / repositories          |
+| `src/types/`        | `lib/*/domain/` / models              |
+| `src/assets/`       | `assets/` + `pubspec.yaml` 声明       |
+| `public/`           | Flutter assets / 平台资源             |
+| `vite.config.ts`    | `pubspec.yaml` + 平台构建配置         |
+| `webpack.config.js` | Android/iOS/Web 平台构建配置          |
+| `.env`              | flavor / dart-define / 环境配置       |
+| `dist/`             | `build/`                              |
+
+---
+
+## 1. Vite 项目结构 vs Flutter
+
+典型 Vite + React：
+
+```text
+web-app/
+  index.html
+  package.json
+  vite.config.ts
+  src/
+    main.tsx
+    App.tsx
+    pages/
+    components/
+    router/
+    services/
+    stores/
+    assets/
+```
+
+典型 Flutter：
+
+```text
+flutter_app/
+  pubspec.yaml
+  lib/
+    main.dart
+    app.dart
+    core/
+      router/
+      theme/
+      widgets/
+      network/
+      storage/
+    features/
+      home/
+        presentation/
+        application/
+        domain/
+        data/
+  assets/
+  android/
+  ios/
+  test/
+```
+
+关键差异：
+
+```text
+Vite 项目主要面向浏览器构建；
+Flutter 项目同时包含 Dart 应用代码和 Android/iOS 等平台工程。
+```
+
+---
+
+## 2. Webpack 项目结构 vs Flutter
+
+Webpack 项目通常强调“打包配置”：
+
+```text
+webpack-app/
+  package.json
+  webpack.config.js
+  public/
+  src/
+    index.js
+    App.jsx
+```
+
+Flutter 通常不需要你手写类似 Webpack 的 UI 打包配置。Flutter CLI 和平台构建系统会处理大部分构建流程。
+
+| Webpack         | Flutter                             |
+| --------------- | ----------------------------------- |
+| entry           | `main.dart`                         |
+| output          | `build/`                            |
+| loader          | Flutter asset/font/codegen 配置     |
+| plugin          | Flutter plugin / Gradle / CocoaPods |
+| devServer       | `flutter run`                       |
+| bundle analysis | Flutter DevTools / build analyze    |
+
+一句话：
+
+```text
+Webpack 项目需要你关心打包管线；
+Flutter 项目更多关心 pubspec、平台配置和 Flutter CLI。
+```
+
+---
+
+## 3. Next.js 项目结构 vs Flutter
+
+Next.js 更像一个“应用框架”，自带路由、构建、SSR、API Routes 等能力：
+
+```text
+next-app/
+  package.json
+  next.config.js
+  app/
+    layout.tsx
+    page.tsx
+    products/
+      page.tsx
+  components/
+  lib/
+  public/
+```
+
+Flutter 没有 Next.js 那种文件系统路由和 SSR 心智。Flutter 页面通常通过显式路由配置组织：
+
+```text
+lib/
+  core/
+    router/
+      router_provider.dart
+  features/
+    products/
+      presentation/
+        pages/
+          product_list_page.dart
+          product_detail_page.dart
+```
+
+映射关系：
+
+| Next.js                      | Flutter                           |
+| ---------------------------- | --------------------------------- |
+| `app/page.tsx`               | `home_page.dart`                  |
+| `app/products/page.tsx`      | `product_list_page.dart`          |
+| `app/products/[id]/page.tsx` | `product_detail_page.dart`        |
+| file-based routing           | go_router 路由配置                |
+| layout.tsx                   | ShellRoute / MainScaffold         |
+| loading.tsx                  | Loading Widget                    |
+| error.tsx                    | Error View                        |
+| not-found.tsx                | NotFound Page                     |
+| server component             | 无直接对应                        |
+| API routes                   | 后端服务 / 本地 mock / repository |
+| middleware                   | redirect / auth guard             |
+
+关键差异：
+
+```text
+Next.js 是 Web 全栈应用框架；
+Flutter 是跨平台客户端应用框架。
+```
+
+---
+
+## 4. Flutter 工程中特有的目录
+
+Flutter 项目通常会有 Web 项目没有的目录：
+
+```text
+android/
+ios/
+macos/
+windows/
+linux/
+web/
+```
+
+这些是平台工程目录。
+
+可以理解为：
+
+| Flutter 目录  | 类比                  |
+| ------------- | --------------------- |
+| `android/`    | Android 原生宿主项目  |
+| `ios/`        | iOS 原生宿主项目      |
+| `web/`        | Web 平台宿主文件      |
+| `build/`      | 构建产物              |
+| `.dart_tool/` | Dart/Flutter 工具缓存 |
+| `test/`       | 测试目录              |
+
+多数业务代码不写在这些平台目录里，而是写在：
+
+```text
+lib/
+```
+
+---
+
+## 5. 推荐的 Flutter 应用结构
+
+对 Web 开发者来说，可以先用这个映射理解：
+
+```text
+lib/
+  main.dart        # 类似 src/main.tsx
+  app.dart         # 类似 src/App.tsx
+  core/            # 类似 src/shared / src/common
+  features/        # 类似 src/features
+```
+
+更具体：
+
+```text
+lib/
+  core/
+    router/        # 路由
+    theme/         # 主题、颜色、字体
+    widgets/       # 跨业务通用组件
+    network/       # 网络基础设施
+    storage/       # 存储基础设施
+
+  features/
+    product/
+      presentation/
+        pages/     # 页面
+        widgets/   # 业务组件
+      application/ # 状态管理、用例编排
+      domain/      # 实体、领域模型
+      data/        # API、Repository、DTO
+```
+
+对应 Web：
+
+```text
+src/
+  shared/
+  features/
+    product/
+      pages/
+      components/
+      hooks/
+      services/
+      types/
+```
+
+一句话理解：
+
+```text
+Vite/Webpack/Next.js 工程围绕浏览器应用和构建工具组织；
+Flutter 工程围绕 lib/ 业务代码、pubspec.yaml 配置、平台目录和跨端构建组织。
+```

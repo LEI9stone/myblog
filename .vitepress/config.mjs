@@ -198,6 +198,10 @@ export default withPwa(
                     text: 'npm/yarn/pnpm vs pub',
                     link: '/flutter/项目结构与工程化/002-npm-vs-pub',
                   },
+                  {
+                    text: 'Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构',
+                    link: '/flutter/项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构',
+                  },
                 ],
               },
             ],

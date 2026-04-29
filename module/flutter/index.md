@@ -24,8 +24,7 @@ tags:
 
 - [1.1 `package.json` vs `pubspec.yaml`](./项目结构与工程化/001-package.json-vs-pubspec.yaml.md)
 - [1.2 npm/yarn/pnpm vs pub](./项目结构与工程化/002-npm-vs-pub.md)
-
-### 1.3 Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构
+- [1.3 Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构](./项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构.md)
 
 ### 1.4 `src/` 目录 vs `lib/` 目录
 
