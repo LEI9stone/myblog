@@ -206,6 +206,10 @@ export default withPwa(
                     text: 'src/ 目录 vs lib/ 目录',
                     link: '/flutter/项目结构与工程化/004-src目录-vs-lib目录',
                   },
+                  {
+                    text: '静态资源管理：public/assets vs Flutter assets',
+                    link: '/flutter/项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets',
+                  },
                 ],
               },
             ],

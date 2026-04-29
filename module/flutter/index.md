@@ -26,8 +26,7 @@ tags:
 - [1.2 npm/yarn/pnpm vs pub](./项目结构与工程化/002-npm-vs-pub.md)
 - [1.3 Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构](./项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构.md)
 - [1.4 `src/` 目录 vs `lib/` 目录](./项目结构与工程化/004-src目录-vs-lib目录.md)
-
-### 1.5 静态资源管理：public/assets vs Flutter assets
+- [1.5 静态资源管理：public/assets vs Flutter assets](./项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets.md)
 
 ### 1.6 环境配置：`.env` vs Flutter 环境配置
 
