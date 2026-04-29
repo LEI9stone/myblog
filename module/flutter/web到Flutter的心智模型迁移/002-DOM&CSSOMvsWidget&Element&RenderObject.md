@@ -1,0 +1,61 @@
+---
+title: DOM/CSSOM vs Widget/Element/RenderObject
+date: 2024-04-29
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# DOM/CSSOM vs Widget/Element/RenderObject
+
+在 Web 里，页面大致由两套结构共同决定：
+
+| Web         | 作用                       |
+| ----------- | -------------------------- |
+| DOM         | 描述页面结构               |
+| CSSOM       | 描述样式规则               |
+| Render Tree | DOM + CSSOM 计算后的渲染树 |
+
+在 Flutter 里，对应的是三棵树：
+
+| Flutter           | 作用                         |
+| ----------------- | ---------------------------- |
+| Widget Tree       | 描述 UI 配置                 |
+| Element Tree      | 维护 Widget 与屏幕实例的关系 |
+| RenderObject Tree | 负责布局、绘制、命中测试     |
+
+可以这样映射：
+
+| Web                       | Flutter                  |
+| ------------------------- | ------------------------ |
+| HTML/JSX                  | Widget                   |
+| DOM Node                  | Element                  |
+| CSS Rule / Computed Style | Widget 参数 / Theme      |
+| Render Tree               | RenderObject Tree        |
+| 浏览器 Diff DOM           | Flutter Diff Widget Tree |
+| repaint/reflow            | layout/paint             |
+
+核心区别：
+
+Web 中，DOM 是相对“持久”的页面结构，你经常围绕 DOM 节点、CSS 规则和样式计算来理解渲染。
+
+Flutter 中，Widget 是轻量、不可变的配置对象，可以频繁重建；真正持久的是 Element，真正负责布局和绘制的是 RenderObject。
+
+所以 Flutter 的心智模型可以简化为：
+
+```text
+Widget：我想要什么 UI
+Element：这个 UI 在树里的实例位置
+RenderObject：这个 UI 如何布局和绘制
+```
+
+React 开发者可以这样类比：
+
+```text
+React Element ≈ Flutter Widget
+React Fiber ≈ Flutter Element
+浏览器 Render Tree ≈ Flutter RenderObject Tree
+```
+
+但注意：React 最终还是交给浏览器 DOM/CSS 渲染；Flutter 则绕过 DOM/CSS，直接由自己的渲染管线绘制。

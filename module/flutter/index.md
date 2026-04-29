@@ -17,7 +17,7 @@ tags:
 
 ### [0.1 浏览器运行时 vs Flutter 渲染引擎](./web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎.md)
 
-### 0.2 DOM/CSSOM vs Widget/Element/RenderObject
+### [0.2 DOM/CSSOM vs Widget/Element/RenderObject](./web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject.md)
 
 ### 0.3 Web App 生命周期 vs Flutter App 生命周期
 

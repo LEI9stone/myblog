@@ -169,6 +169,10 @@ export default withPwa(
                     text: '浏览器运行时 vs Flutter 渲染引擎',
                     link: '/flutter/web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎',
                   },
+                  {
+                    text: 'DOM/CSSOM vs Widget/Element/RenderObject',
+                    link: '/flutter/web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject',
+                  },
                 ],
               },
             ],
