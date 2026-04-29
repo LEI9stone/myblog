@@ -187,6 +187,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '项目结构与工程化',
+                items: [
+                  {
+                    text: 'package.json vs pubspec.yaml',
+                    link: '/flutter/项目结构与工程化/001-package.json-vs-pubspec.yaml',
+                  },
+                ],
+              },
             ],
           },
         ],

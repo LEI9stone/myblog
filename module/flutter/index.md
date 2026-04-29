@@ -20,11 +20,9 @@ tags:
 
 ### [0.5 React/Vue/Svelte 开发体验 vs Flutter 开发体验](./web到Flutter的心智模型迁移/005-React&Vue&Svelte开发体验vsFlutter开发体验.md)
 
----
-
 ## 1. 项目结构与工程化概念映射
 
-### 1.1 `package.json` vs `pubspec.yaml`
+- [1.1 `package.json` vs `pubspec.yaml`](./项目结构与工程化/001-package.json-vs-pubspec.yaml.md)
 
 ### 1.2 npm/yarn/pnpm vs pub
 
