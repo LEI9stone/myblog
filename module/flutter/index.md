@@ -1,6 +1,6 @@
 ---
 title: 前端工程师的flutter应用开发指南
-date: 2024-03-31
+date: 2024-04-28
 tags:
   - flutter
   - app
@@ -15,7 +15,7 @@ tags:
 
 ## 0. 开始之前：Web 到 Flutter 的心智模型迁移
 
-### 0.1 浏览器运行时 vs Flutter 渲染引擎
+### [0.1 浏览器运行时 vs Flutter 渲染引擎](./web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎.md)
 
 ### 0.2 DOM/CSSOM vs Widget/Element/RenderObject
 
