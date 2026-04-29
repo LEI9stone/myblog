@@ -173,6 +173,10 @@ export default withPwa(
                     text: 'DOM/CSSOM vs Widget/Element/RenderObject',
                     link: '/flutter/web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject',
                   },
+                  {
+                    text: 'Web App 生命周期 vs Flutter App 生命周期',
+                    link: '/flutter/web到Flutter的心智模型迁移/003-Web%20App%20生命周期%20vs%20Flutter%20App%20生命周期',
+                  },
                 ],
               },
             ],

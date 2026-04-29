@@ -1,0 +1,79 @@
+---
+title: Web App 生命周期 vs Flutter App 生命周期
+date: 2024-04-29
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# Web App 生命周期 vs Flutter App 生命周期
+
+Web App 的生命周期主要围绕浏览器页面、JS 执行环境和用户导航展开：
+
+| Web                  | Flutter                               |
+| -------------------- | ------------------------------------- |
+| 打开页面             | 启动 App                              |
+| 加载 HTML/CSS/JS     | 执行 `main()`                         |
+| 初始化前端应用       | `runApp()`                            |
+| 首次渲染 DOM         | 构建首帧 Widget                       |
+| 用户交互触发状态变化 | 用户交互触发 `setState`/Provider 更新 |
+| 组件重新渲染         | Widget rebuild                        |
+| 页面切换/路由变化    | Navigator/go_router 路由变化          |
+| 刷新页面             | App 热重启/重新启动                   |
+| 关闭 Tab             | App 退出或被系统回收                  |
+| 页面进入后台         | AppLifecycleState.paused/inactive     |
+| 页面回到前台         | AppLifecycleState.resumed             |
+
+Web 开发者熟悉的是：
+
+```text
+浏览器加载页面 → JS 初始化 → 框架挂载 → 用户交互 → DOM 更新
+```
+
+Flutter 对应的是：
+
+```text
+系统启动 App → main() → runApp() → 构建 Widget 树 → 用户交互 → rebuild
+```
+
+关键差异在于：
+
+Web App 通常运行在浏览器 Tab 中，生命周期受浏览器控制，比如刷新、关闭、前进后退、页面可见性变化。
+
+Flutter App 是原生应用，生命周期受操作系统控制，比如进入后台、恢复前台、内存回收、应用冷启动、热启动。
+
+所以 Web 里的 `window.onload`、`DOMContentLoaded`、`visibilitychange`，在 Flutter 中通常会映射到：
+
+| Web API             | Flutter 对应                                      |
+| ------------------- | ------------------------------------------------- |
+| `DOMContentLoaded`  | `main()` / `runApp()`                             |
+| `window.onload`     | 首帧渲染后回调                                    |
+| `visibilitychange`  | `AppLifecycleListener` / `WidgetsBindingObserver` |
+| `beforeunload`      | App pause/detach 场景                             |
+| SPA route mounted   | 页面 Widget 初始化                                |
+| component unmounted | Widget dispose                                    |
+
+组件层面也可以类比：
+
+| React             | Flutter                        |
+| ----------------- | ------------------------------ |
+| component mount   | `initState()`                  |
+| props change      | `didUpdateWidget()`            |
+| render            | `build()`                      |
+| component unmount | `dispose()`                    |
+| effect cleanup    | `dispose()` / Provider cleanup |
+
+一句话理解：
+
+```text
+Web 生命周期看浏览器页面；
+Flutter 生命周期看原生 App + Widget 状态。
+```
+
+对于 Web 开发者来说，进入 Flutter 后要特别关注两层生命周期：
+
+```text
+App 生命周期：前台、后台、暂停、恢复
+Widget 生命周期：创建、构建、更新、销毁
+```

@@ -11,15 +11,11 @@ tags:
 
 这是一个系列，会将前端的相关概念对Flutter中相关概念映射。
 
-下面是一份面向 Web 开发者的「渐进式入门 Flutter 应用开发」目录指南，只做概念映射目录，不展开概念答案。
-
 ## 0. 开始之前：Web 到 Flutter 的心智模型迁移
 
-### [0.1 浏览器运行时 vs Flutter 渲染引擎](./web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎.md)
-
-### [0.2 DOM/CSSOM vs Widget/Element/RenderObject](./web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject.md)
-
-### 0.3 Web App 生命周期 vs Flutter App 生命周期
+- [0.1 浏览器运行时 vs Flutter 渲染引擎](./web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎.md)
+- [0.2 DOM/CSSOM vs Widget/Element/RenderObject](./web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject.md)
+- [0.3 Web App 生命周期 vs Flutter App 生命周期](./web到Flutter的心智模型迁移/003-Web%20App%20生命周期%20vs%20Flutter%20App%20生命周期.md)
 
 ### 0.4 SPA 应用结构 vs Flutter 应用结构
 
