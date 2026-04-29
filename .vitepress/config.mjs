@@ -202,6 +202,10 @@ export default withPwa(
                     text: 'Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构',
                     link: '/flutter/项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构',
                   },
+                  {
+                    text: 'src/ 目录 vs lib/ 目录',
+                    link: '/flutter/项目结构与工程化/004-src目录-vs-lib目录',
+                  },
                 ],
               },
             ],
