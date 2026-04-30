@@ -34,8 +34,7 @@ tags:
 ## 2. Dart 基础：从 JavaScript/TypeScript 映射到 Dart
 
 - [2.1 JavaScript Runtime vs Dart Runtime](./js和dart/001-运行时.md)
-
-### 2.2 TypeScript 类型系统 vs Dart 类型系统
+- [2.2 TypeScript 类型系统 vs Dart 类型系统](./js和dart/002-类型系统.md)
 
 ### 2.3 `let/const` vs `final/const/var`
 

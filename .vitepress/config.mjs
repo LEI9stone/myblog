@@ -199,6 +199,10 @@ export default withPwa(
                     text: 'JavaScript Runtime vs Dart Runtime',
                     link: '/flutter/js和dart/001-运行时',
                   },
+                  {
+                    text: 'TypeScript 类型系统 vs Dart 类型系统',
+                    link: '/flutter/js和dart/002-类型系统',
+                  },
                 ],
               },
             ],
