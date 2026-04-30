@@ -28,8 +28,7 @@ tags:
 - [1.4 `src/` 目录 vs `lib/` 目录](./项目结构与工程化/004-src目录-vs-lib目录.md)
 - [1.5 静态资源管理：public/assets vs Flutter assets](./项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets.md)
 - [1.6 环境配置：`.env` vs Flutter 环境配置](./项目结构与工程化/006-env-vs-Flutter-环境配置.md)
-
-### 1.7 Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format
+- [1.7 Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format](./项目结构与工程化/007-Lint-Format.md)
 
 ### 1.8 Codegen：前端代码生成 vs Flutter build_runner
 

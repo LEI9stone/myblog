@@ -1,0 +1,239 @@
+---
+title: Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format
+date: 2024-04-30
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format
+
+Web 项目里通常用：
+
+```text
+ESLint 负责代码规则检查
+Prettier 负责代码格式化
+```
+
+Flutter/Dart 项目里通常用：
+
+```text
+Dart Analyzer 负责静态分析和 lint
+dart format 负责格式化
+```
+
+可以这样映射：
+
+| Web              | Flutter / Dart                     |
+| ---------------- | ---------------------------------- |
+| ESLint           | Dart Analyzer                      |
+| Prettier         | `dart format`                      |
+| `.eslintrc`      | `analysis_options.yaml`            |
+| `.prettierrc`    | Dart 官方格式规则                  |
+| `npm run lint`   | `dart analyze` / `flutter analyze` |
+| `npm run format` | `dart format .`                    |
+| eslint plugin    | lint package / analyzer rule       |
+| autofix          | `dart fix --apply`                 |
+
+---
+
+## 1. 配置文件映射
+
+Web：
+
+```text
+.eslintrc
+eslint.config.js
+.prettierrc
+```
+
+Flutter：
+
+```text
+analysis_options.yaml
+```
+
+常见配置：
+
+```yaml
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    avoid_print: true
+```
+
+如果项目使用 Riverpod，可能还会加入：
+
+```yaml
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  rules:
+    - riverpod_lint
+```
+
+---
+
+## 2. 命令映射
+
+| Web                      | Flutter / Dart     |
+| ------------------------ | ------------------ |
+| `npx eslint .`           | `dart analyze`     |
+| `npm run lint`           | `flutter analyze`  |
+| `npx prettier --write .` | `dart format .`    |
+| `eslint --fix`           | `dart fix --apply` |
+| `tsc --noEmit`           | `dart analyze`     |
+
+常用 Flutter 命令：
+
+```bash
+dart analyze
+dart format .
+dart fix --apply
+```
+
+或：
+
+```bash
+flutter analyze
+flutter test
+```
+
+---
+
+## 3. Analyzer 类似 ESLint + TypeScript 检查
+
+Dart Analyzer 不只是 lint 工具，也会做类型检查和静态错误检查。
+
+所以它更像：
+
+```text
+ESLint + TypeScript compiler check
+```
+
+例如它会检查：
+
+```text
+类型错误
+未使用变量
+空安全问题
+无效 import
+不可达代码
+lint 规则
+```
+
+Web 中可能需要：
+
+```bash
+eslint .
+tsc --noEmit
+```
+
+Flutter/Dart 中通常一个命令就能覆盖很多：
+
+```bash
+dart analyze
+```
+
+---
+
+## 4. dart format 类似 Prettier，但配置更少
+
+Prettier 可以配置一些格式选项。
+
+Dart 官方格式化器更“强约定”，可配置项很少，团队通常直接接受统一格式。
+
+Web：
+
+```json
+{
+  "singleQuote": true,
+  "semi": false,
+  "printWidth": 100
+}
+```
+
+Dart：
+
+```bash
+dart format .
+```
+
+主要心智变化是：
+
+```text
+Dart 格式化更接近官方唯一风格，不鼓励团队自定义大量格式规则。
+```
+
+---
+
+## 5. dart fix 类似 eslint --fix
+
+Web：
+
+```bash
+eslint . --fix
+```
+
+Dart：
+
+```bash
+dart fix --apply
+```
+
+它可以自动修复部分 analyzer 发现的问题，例如：
+
+```text
+替换废弃 API
+添加 const
+修复部分 lint 问题
+迁移部分语法
+```
+
+---
+
+## 6. Flutter 项目常见质量命令
+
+推荐日常使用：
+
+```bash
+dart format .
+dart analyze
+flutter test
+```
+
+CI 中常见：
+
+```bash
+dart format --set-exit-if-changed .
+dart analyze
+flutter test
+```
+
+其中：
+
+```bash
+dart format --set-exit-if-changed .
+```
+
+类似于：
+
+```bash
+prettier --check .
+```
+
+---
+
+一句话理解：
+
+```text
+ESLint/Prettier 在 Web 中分别负责规则检查和格式化；
+Dart/Flutter 中用 Dart Analyzer 做静态分析，
+用 dart format 做统一格式化，
+用 dart fix --apply 做部分自动修复。
+```

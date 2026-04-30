@@ -182,6 +182,10 @@ export default withPwa(
                     text: '环境配置：`.env` vs Flutter 环境配置',
                     link: '/flutter/项目结构与工程化/006-env-vs-Flutter-环境配置',
                   },
+                  {
+                    text: 'Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format',
+                    link: '/flutter/项目结构与工程化/007-Lint-Format',
+                  },
                 ],
               },
             ],
