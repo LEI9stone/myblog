@@ -186,6 +186,10 @@ export default withPwa(
                     text: 'Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format',
                     link: '/flutter/项目结构与工程化/007-Lint-Format',
                   },
+                  {
+                    text: 'Codegen：前端代码生成 vs Flutter build_runner',
+                    link: '/flutter/项目结构与工程化/008-代码生成',
+                  },
                 ],
               },
             ],
