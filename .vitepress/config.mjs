@@ -207,6 +207,10 @@ export default withPwa(
                     text: 'let/const vs final/const/var',
                     link: '/flutter/js和dart/003-变量声明',
                   },
+                  {
+                    text: 'Interface/Type Alias vs Class/Abstract Class/Extension',
+                    link: '/flutter/js和dart/004-类型声明',
+                  },
                 ],
               },
             ],
