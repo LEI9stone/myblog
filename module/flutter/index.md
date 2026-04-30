@@ -31,11 +31,9 @@ tags:
 - [1.7 Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format](./项目结构与工程化/007-Lint-Format.md)
 - [1.8 Codegen：前端代码生成 vs Flutter build_runner](./项目结构与工程化/008-代码生成.md)
 
----
-
 ## 2. Dart 基础：从 JavaScript/TypeScript 映射到 Dart
 
-### 2.1 JavaScript Runtime vs Dart Runtime
+- [2.1 JavaScript Runtime vs Dart Runtime](./js和dart/001-运行时.md)
 
 ### 2.2 TypeScript 类型系统 vs Dart 类型系统
 
