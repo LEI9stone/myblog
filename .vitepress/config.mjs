@@ -203,6 +203,10 @@ export default withPwa(
                     text: 'TypeScript 类型系统 vs Dart 类型系统',
                     link: '/flutter/js和dart/002-类型系统',
                   },
+                  {
+                    text: 'let/const vs final/const/var',
+                    link: '/flutter/js和dart/003-变量声明',
+                  },
                 ],
               },
             ],
