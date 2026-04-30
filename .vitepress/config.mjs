@@ -178,6 +178,10 @@ export default withPwa(
                     text: '静态资源管理：public/assets vs Flutter assets',
                     link: '/flutter/项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets',
                   },
+                  {
+                    text: '环境配置：`.env` vs Flutter 环境配置',
+                    link: '/flutter/项目结构与工程化/006-env-vs-Flutter-环境配置',
+                  },
                 ],
               },
             ],
