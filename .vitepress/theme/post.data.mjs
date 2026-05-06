@@ -7,7 +7,7 @@ export default createContentLoader('/**/*.md', {
   excerpt: '<!-- more -->',    // 包含摘录?
   transform(raw) {
     return raw
-			.filter(({url}) => url !== '/')
+      .filter(({ url }) => url !== '/' && !url.split('/').includes('diary'))
       .map(({ url, frontmatter, excerpt, html }) => {
         return ({
           title: frontmatter.title,
