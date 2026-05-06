@@ -61,6 +61,11 @@
 		padding-left: 0;
 	}
 
+	li.todo-list-item>ul.todo-list {
+		padding-left: 1.1rem;
+		margin-top: 0;
+	}
+
 	li {
 		margin: 2px 0;
 		line-height: 1.6;
