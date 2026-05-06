@@ -215,6 +215,10 @@ export default withPwa(
                     text: 'Union Type vs sealed class / enum / Freezed',
                     link: '/flutter/js和dart/005-联合类型',
                   },
+                  {
+                    text: 'Optional/Nullable vs Dart Null Safety',
+                    link: '/flutter/js和dart/006-空类型安全',
+                  },
                 ],
               },
             ],
