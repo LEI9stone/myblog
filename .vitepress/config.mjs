@@ -223,6 +223,10 @@ export default withPwa(
                     text: 'Promise/async/await vs Future/async/await',
                     link: '/flutter/js和dart/007-异步',
                   },
+                  {
+                    text: 'Array/Object/Map vs List/Map/Record/Class',
+                    link: '/flutter/js和dart/008-结构化数据',
+                  },
                 ],
               },
             ],
