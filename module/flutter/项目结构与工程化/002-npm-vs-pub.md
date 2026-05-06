@@ -1,6 +1,6 @@
 ---
 title: npm/yarn/pnpm vs pub
-date: 2024-04-29
+date: 2026-04-29
 tags:
   - flutter
   - app

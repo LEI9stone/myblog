@@ -1,6 +1,6 @@
 ---
 title: package.json vs pubspec.yaml
-date: 2024-04-29
+date: 2026-04-29
 tags:
   - flutter
   - app

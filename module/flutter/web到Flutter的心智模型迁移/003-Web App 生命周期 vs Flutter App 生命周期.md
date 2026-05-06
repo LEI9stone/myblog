@@ -1,6 +1,6 @@
 ---
 title: Web App 生命周期 vs Flutter App 生命周期
-date: 2024-04-29
+date: 2026-04-29
 tags:
   - flutter
   - app

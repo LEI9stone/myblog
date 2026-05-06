@@ -1,6 +1,6 @@
 ---
 title: Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format
-date: 2024-04-30
+date: 2026-04-30
 tags:
   - flutter
   - app

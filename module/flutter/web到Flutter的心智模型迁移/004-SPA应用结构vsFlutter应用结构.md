@@ -1,6 +1,6 @@
 ---
 title: SPA 应用结构 vs Flutter 应用结构
-date: 2024-04-29
+date: 2026-04-29
 tags:
   - flutter
   - app
