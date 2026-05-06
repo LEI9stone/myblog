@@ -42,8 +42,7 @@ tags:
 - [2.7 Promise/async/await vs Future/async/await](./js和dart/007-异步.md)
 - [2.8 Array/Object/Map vs List/Map/Record/Class](./js和dart/008-结构化数据.md)
 - [2.9 Module Import/Export vs Dart Import/Export](./js和dart/009-模块.md)
-
-### 2.10 泛型：TypeScript Generics vs Dart Generics
+- [2.10 泛型：TypeScript Generics vs Dart Generics](./js和dart/010-泛型.md)
 
 ### 2.11 函数式写法：JS 高阶函数 vs Dart 函数对象
 

@@ -231,6 +231,10 @@ export default withPwa(
                     text: 'Module Import/Export vs Dart Import/Export',
                     link: '/flutter/js和dart/009-模块',
                   },
+                  {
+                    text: '泛型：TypeScript Generics vs Dart Generics',
+                    link: '/flutter/js和dart/010-泛型',
+                  },
                 ],
               },
             ],
