@@ -272,6 +272,10 @@ export default withPwa(
                     text: 'CSS Overflow vs Clip/ScrollView',
                     link: '/flutter/基础UI/006-溢出隐藏',
                   },
+                  {
+                    text: 'CSS Units vs Flutter Logical Pixels',
+                    link: '/flutter/基础UI/007-样式单位',
+                  },
                 ],
               },
             ],
