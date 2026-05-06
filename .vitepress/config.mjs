@@ -250,7 +250,11 @@ export default withPwa(
                 items: [
                   {
                     text: 'HTML 标签 vs Flutter Widget',
-                    link: '/flutter/基础UI/001',
+                    link: '/flutter/基础UI/001-标签',
+                  },
+                  {
+                    text: 'DOM Tree vs Widget Tree',
+                    link: '/flutter/基础UI/002-页面树',
                   },
                 ],
               },
