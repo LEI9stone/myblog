@@ -43,8 +43,7 @@ tags:
 - [2.8 Array/Object/Map vs List/Map/Record/Class](./js和dart/008-结构化数据.md)
 - [2.9 Module Import/Export vs Dart Import/Export](./js和dart/009-模块.md)
 - [2.10 泛型：TypeScript Generics vs Dart Generics](./js和dart/010-泛型.md)
-
-### 2.11 函数式写法：JS 高阶函数 vs Dart 函数对象
+- [2.11 函数式写法：JS 高阶函数 vs Dart 函数对象](./js和dart/011-函数式写法.md)
 
 ### 2.12 错误处理：try/catch vs Dart Exception/Error
 

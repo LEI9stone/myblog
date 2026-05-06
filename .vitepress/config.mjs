@@ -235,6 +235,10 @@ export default withPwa(
                     text: '泛型：TypeScript Generics vs Dart Generics',
                     link: '/flutter/js和dart/010-泛型',
                   },
+                  {
+                    text: '函数式写法：JS 高阶函数 vs Dart 函数对象',
+                    link: '/flutter/js和dart/011-函数式写法',
+                  },
                 ],
               },
             ],
