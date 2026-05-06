@@ -256,6 +256,10 @@ export default withPwa(
                     text: 'DOM Tree vs Widget Tree',
                     link: '/flutter/基础UI/002-页面树',
                   },
+                  {
+                    text: 'CSS Box Model vs Flutter Layout Model',
+                    link: '/flutter/基础UI/003-盒模型',
+                  },
                 ],
               },
             ],
