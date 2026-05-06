@@ -52,8 +52,7 @@ tags:
 - [3.3 CSS Box Model vs Flutter Layout Model](./基础UI/003-盒模型.md)
 - [3.4 CSS Display/Flex/Grid vs Flutter Row/Column/Grid](./基础UI/004-布局.md)
 - [3.5 CSS Position vs Stack/Positioned/Align](./基础UI/005-定位.md)
-
-### 3.6 CSS Overflow vs Clip/ScrollView
+- [3.6 CSS Overflow vs Clip/ScrollView](./基础UI/006-溢出隐藏.md)
 
 ### 3.7 CSS Units vs Flutter Logical Pixels
 

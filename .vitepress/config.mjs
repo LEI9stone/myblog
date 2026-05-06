@@ -268,6 +268,10 @@ export default withPwa(
                     text: 'CSS Position vs Stack/Positioned/Align',
                     link: '/flutter/基础UI/005-定位',
                   },
+                  {
+                    text: 'CSS Overflow vs Clip/ScrollView',
+                    link: '/flutter/基础UI/006-溢出隐藏',
+                  },
                 ],
               },
             ],
