@@ -264,6 +264,10 @@ export default withPwa(
                     text: 'CSS Display/Flex/Grid vs Flutter Row/Column/Grid',
                     link: '/flutter/基础UI/004-布局',
                   },
+                  {
+                    text: 'CSS Position vs Stack/Positioned/Align',
+                    link: '/flutter/基础UI/005-定位',
+                  },
                 ],
               },
             ],
