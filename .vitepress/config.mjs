@@ -239,6 +239,10 @@ export default withPwa(
                     text: '函数式写法：JS 高阶函数 vs Dart 函数对象',
                     link: '/flutter/js和dart/011-函数式写法',
                   },
+                  {
+                    text: '错误处理：try/catch vs Dart Exception/Error',
+                    link: '/flutter/js和dart/012-错误处理',
+                  },
                 ],
               },
             ],
