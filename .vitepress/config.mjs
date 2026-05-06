@@ -353,7 +353,11 @@ export default withPwa(
                       {
                         text: '2026-05-06',
                         link: '/book/非暴力沟通/diary/26-05/06',
-                      }
+                      },
+                      {
+                        text: '2026-05-07',
+                        link: '/book/非暴力沟通/diary/26-05/07',
+                      },
                     ],
                   },
                 ],
