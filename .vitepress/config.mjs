@@ -245,6 +245,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: 'UI 基础：HTML/CSS 到 Flutter Widget',
+                items: [
+                  {
+                    text: 'HTML 标签 vs Flutter Widget',
+                    link: '/flutter/基础UI/001',
+                  },
+                ],
+              },
             ],
           },
         ],
