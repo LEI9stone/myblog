@@ -260,6 +260,10 @@ export default withPwa(
                     text: 'CSS Box Model vs Flutter Layout Model',
                     link: '/flutter/基础UI/003-盒模型',
                   },
+                  {
+                    text: 'CSS Display/Flex/Grid vs Flutter Row/Column/Grid',
+                    link: '/flutter/基础UI/004-布局',
+                  },
                 ],
               },
             ],
