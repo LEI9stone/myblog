@@ -227,6 +227,10 @@ export default withPwa(
                     text: 'Array/Object/Map vs List/Map/Record/Class',
                     link: '/flutter/js和dart/008-结构化数据',
                   },
+                  {
+                    text: 'Module Import/Export vs Dart Import/Export',
+                    link: '/flutter/js和dart/009-模块',
+                  },
                 ],
               },
             ],

@@ -41,8 +41,7 @@ tags:
 - [2.6 Optional/Nullable vs Dart Null Safety](./js和dart/006-空类型安全.md)
 - [2.7 Promise/async/await vs Future/async/await](./js和dart/007-异步.md)
 - [2.8 Array/Object/Map vs List/Map/Record/Class](./js和dart/008-结构化数据.md)
-
-### 2.9 Module Import/Export vs Dart Import/Export
+- [2.9 Module Import/Export vs Dart Import/Export](./js和dart/009-模块.md)
 
 ### 2.10 泛型：TypeScript Generics vs Dart Generics
 
