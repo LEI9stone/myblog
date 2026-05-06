@@ -211,6 +211,10 @@ export default withPwa(
                     text: 'Interface/Type Alias vs Class/Abstract Class/Extension',
                     link: '/flutter/js和dart/004-类型声明',
                   },
+                  {
+                    text: 'Union Type vs sealed class / enum / Freezed',
+                    link: '/flutter/js和dart/005-联合类型',
+                  },
                 ],
               },
             ],

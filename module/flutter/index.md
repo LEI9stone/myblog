@@ -37,8 +37,7 @@ tags:
 - [2.2 TypeScript 类型系统 vs Dart 类型系统](./js和dart/002-类型系统.md)
 - [2.3 `let/const` vs `final/const/var`](./js和dart/003-变量声明.md)
 - [2.4 Interface/Type Alias vs Class/Abstract Class/Extension](./js和dart/004-类型声明.md)
-
-### 2.5 Union Type vs sealed class / enum / Freezed
+- [2.5 Union Type vs sealed class / enum / Freezed](./js和dart/005-联合类型.md)
 
 ### 2.6 Optional/Nullable vs Dart Null Safety
 
