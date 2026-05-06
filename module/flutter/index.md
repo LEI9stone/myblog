@@ -39,8 +39,7 @@ tags:
 - [2.4 Interface/Type Alias vs Class/Abstract Class/Extension](./js和dart/004-类型声明.md)
 - [2.5 Union Type vs sealed class / enum / Freezed](./js和dart/005-联合类型.md)
 - [2.6 Optional/Nullable vs Dart Null Safety](./js和dart/006-空类型安全.md)
-
-### 2.7 Promise/async/await vs Future/async/await
+- [2.7 Promise/async/await vs Future/async/await](./js和dart/007-异步.md)
 
 ### 2.8 Array/Object/Map vs List/Map/Record/Class
 

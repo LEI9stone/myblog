@@ -219,6 +219,10 @@ export default withPwa(
                     text: 'Optional/Nullable vs Dart Null Safety',
                     link: '/flutter/js和dart/006-空类型安全',
                   },
+                  {
+                    text: 'Promise/async/await vs Future/async/await',
+                    link: '/flutter/js和dart/007-异步',
+                  },
                 ],
               },
             ],
