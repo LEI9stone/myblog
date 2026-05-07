@@ -8,15 +8,17 @@ import { todoListPlugin } from './markdown-it-plugin/todo-list.mjs';
 
 // 项目根目录（.vitepress 的父目录）
 const __dirname = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const base = '/myblog/';
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
     srcDir: 'module',
+    base,
     title: '小磊',
     description: '小磊的个人博客',
     head: [
-      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ],
     markdown: {
       lineNumbers: true, // 显示代码行数,
@@ -433,6 +435,8 @@ export default withPwa(
     pwa: {
       // 输出目录（与 VitePress 的 outDir 保持一致）
       outDir: resolve(__dirname, '.vitepress/dist'),
+      base,
+      scope: base,
       // 注册类型：自动更新
       registerType: 'autoUpdate',
       // 包含的资源类型
@@ -445,10 +449,11 @@ export default withPwa(
         theme_color: '#667eea',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/',
+        scope: base,
+        start_url: base,
         icons: [
           {
-            src: '/favicon.svg',
+            src: `${base}favicon.svg`,
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable',
