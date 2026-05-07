@@ -78,8 +78,7 @@ tags:
 - [3-样式变量](./样式系统/003-样式变量.md)
 - [4-Design Tokens](./样式系统/004-Design-Tokens.md)
 - [5-样式层叠](./样式系统/005-样式层叠.md)
-
-### 5.6 CSS Selector vs Widget Composition
+- [6-样式选择器](./样式系统/006-样式选择器.md)
 
 ### 5.7 Font/Text Style vs TextStyle
 

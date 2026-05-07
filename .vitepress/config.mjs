@@ -364,6 +364,10 @@ export default withPwa(
                     text: '5-样式层叠',
                     link: '/flutter/样式系统/005-样式层叠',
                   },
+                  {
+                    text: '6-样式选择器',
+                    link: '/flutter/样式系统/006-样式选择器',
+                  },
                 ],
               },
             ],
