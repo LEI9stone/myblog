@@ -281,6 +281,10 @@ export default withPwa(
                     text: '7-样式单位',
                     link: '/flutter/基础UI/007-样式单位',
                   },
+                  {
+                    text: '8-媒体查询',
+                    link: '/flutter/基础UI/008-媒体查询',
+                  },
                 ],
               },
             ],

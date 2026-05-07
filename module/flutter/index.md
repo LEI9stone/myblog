@@ -54,8 +54,7 @@ tags:
 - [5-定位](./基础UI/005-定位.md)
 - [6-溢出隐藏](./基础UI/006-溢出隐藏.md)
 - [7-样式单位](./基础UI/007-样式单位.md)
-
-### 3.8 Media Query vs Flutter MediaQuery/LayoutBuilder
+- [8-媒体查询](./基础UI/008-媒体查询.md)
 
 ### 3.9 Responsive Web vs Flutter 多屏适配
 
