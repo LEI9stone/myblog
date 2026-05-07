@@ -55,8 +55,7 @@ tags:
 - [6-溢出隐藏](./基础UI/006-溢出隐藏.md)
 - [7-样式单位](./基础UI/007-样式单位.md)
 - [8-媒体查询](./基础UI/008-媒体查询.md)
-
-### 3.9 Responsive Web vs Flutter 多屏适配
+- [9-多屏适配](./基础UI/009-多屏适配.md)
 
 ### 3.10 Web 可访问性 vs Flutter Semantics
 

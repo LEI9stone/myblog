@@ -285,6 +285,10 @@ export default withPwa(
                     text: '8-媒体查询',
                     link: '/flutter/基础UI/008-媒体查询',
                   },
+                  {
+                    text: '9-多屏适配',
+                    link: '/flutter/基础UI/009-多屏适配',
+                  },
                 ],
               },
             ],
