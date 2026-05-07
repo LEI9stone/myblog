@@ -372,6 +372,10 @@ export default withPwa(
                     text: '7-字体样式',
                     link: '/flutter/样式系统/007-字体样式',
                   },
+                  {
+                    text: '8-盒外观',
+                    link: '/flutter/样式系统/008-盒外观',
+                  },
                 ],
               },
             ],
