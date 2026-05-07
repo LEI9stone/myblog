@@ -76,8 +76,7 @@ tags:
 - [1-样式命名](./样式系统/001-样式命名.md)
 - [2-内联样式](./样式系统/002-内联样式.md)
 - [3-样式变量](./样式系统/003-样式变量.md)
-
-### 5.4 Design Tokens vs AppTheme/AppColors/AppTextStyles
+- [4-Design Tokens](./样式系统/004-Design-Tokens.md)
 
 ### 5.5 CSS Cascade vs Flutter 显式样式传递
 

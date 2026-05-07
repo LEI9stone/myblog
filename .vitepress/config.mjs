@@ -356,6 +356,10 @@ export default withPwa(
                     text: '3-样式变量',
                     link: '/flutter/样式系统/003-样式变量',
                   },
+                  {
+                    text: '4-Design Tokens',
+                    link: '/flutter/样式系统/004-Design-Tokens',
+                  },
                 ],
               },
             ],
