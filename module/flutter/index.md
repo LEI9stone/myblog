@@ -74,8 +74,7 @@ tags:
 ## 5. 视觉样式与主题系统概念映射
 
 - [1-样式命名](./样式系统/001-样式命名.md)
-
-### 5.2 Inline Style vs Flutter Widget 构造参数
+- [2-内联样式](./样式系统/002-内联样式.md)
 
 ### 5.3 CSS Variables vs ThemeExtension/InheritedWidget
 

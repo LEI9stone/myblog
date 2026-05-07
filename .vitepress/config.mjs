@@ -348,6 +348,10 @@ export default withPwa(
                     text: '1-样式命名',
                     link: '/flutter/样式系统/001-样式命名',
                   },
+                  {
+                    text: '2-内联样式',
+                    link: '/flutter/样式系统/002-内联样式',
+                  },
                 ],
               },
             ],
