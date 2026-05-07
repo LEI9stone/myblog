@@ -90,8 +90,7 @@ tags:
 - [2-Animation](./动画/002-Animation.md)
 - [3-requestAnimationFrame](./动画/003-requestAnimationFrame.md)
 - [4-动画库](./动画/004-动画库.md)
-
-### 6.5 Hover/Active/Focus vs GestureDetector/InkWell/Focus
+- [5-伪类状态](./动画/005-伪类状态.md)
 
 ### 6.6 Web Gesture Events vs Flutter Gesture System
 

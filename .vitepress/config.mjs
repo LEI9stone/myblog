@@ -405,6 +405,10 @@ export default withPwa(
                     text: '4-动画库',
                     link: '/flutter/动画/004-动画库',
                   },
+                  {
+                    text: '5-伪类状态',
+                    link: '/flutter/动画/005-伪类状态',
+                  },
                 ],
               },
             ],
