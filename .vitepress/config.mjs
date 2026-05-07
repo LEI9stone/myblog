@@ -386,6 +386,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '动画',
+                items: [
+                  {
+                    text: '1-Transition',
+                    link: '/flutter/动画/001-Transition',
+                  },
+                ],
+              },
             ],
           },
         ],

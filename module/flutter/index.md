@@ -84,11 +84,9 @@ tags:
 - [9-字体图标](./样式系统/009-字体图标.md)
 - [10-样式主题](./样式系统/010-样式主题.md)
 
----
-
 ## 6. 动画与交互概念映射
 
-### 6.1 CSS Transition vs AnimatedContainer/AnimatedOpacity
+- [1-Transition](./动画/001-Transition.md)
 
 ### 6.2 CSS Animation vs AnimationController
 
