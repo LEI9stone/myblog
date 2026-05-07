@@ -438,6 +438,10 @@ export default withPwa(
                     text: '2-函数式组件',
                     link: '/flutter/组件/002-函数式组件',
                   },
+                  {
+                    text: '3-状态组件',
+                    link: '/flutter/组件/003-状态组件',
+                  },
                 ],
               },
             ],

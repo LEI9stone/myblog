@@ -100,6 +100,7 @@ tags:
 
 - [1-React组件](./组件/001-React组件.md)
 - [2-函数式组件](./组件/002-函数式组件.md)
+- [3-状态组件](./组件/003-状态组件.md)
 
 ### 7.3 Stateful Component vs StatefulWidget
 
