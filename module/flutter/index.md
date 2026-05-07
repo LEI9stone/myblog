@@ -66,8 +66,7 @@ tags:
 - [4-盒间距](./布局与盒模型/004-盒间距.md)
 - [5-盒宽度](./布局与盒模型/005-盒宽度.md)
 - [6-尺寸边界](./布局与盒模型/006-尺寸边界.md)
-
-### 4.7 z-index vs Stack 层级
+- [7-盒层级](./布局与盒模型/007-盒层级.md)
 
 ### 4.8 position absolute/fixed/sticky vs Positioned/Overlay/Sliver
 

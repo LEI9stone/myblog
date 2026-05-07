@@ -323,6 +323,10 @@ export default withPwa(
                     text: '6-尺寸边界',
                     link: '/flutter/布局与盒模型/006-尺寸边界',
                   },
+                  {
+                    text: '7-盒层级',
+                    link: '/flutter/布局与盒模型/007-盒层级',
+                  },
                 ],
               },
             ],
