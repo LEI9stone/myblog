@@ -81,8 +81,7 @@ tags:
 - [6-样式选择器](./样式系统/006-样式选择器.md)
 - [7-字体样式](./样式系统/007-字体样式.md)
 - [8-盒外观](./样式系统/008-盒外观.md)
-
-### 5.9 SVG/IconFont/Image vs flutter_svg/Icon/Image
+- [9-字体图标](./样式系统/009-字体图标.md)
 
 ### 5.10 Light/Dark Theme vs ThemeData
 
