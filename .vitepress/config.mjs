@@ -401,6 +401,10 @@ export default withPwa(
                     text: '3-requestAnimationFrame',
                     link: '/flutter/动画/003-requestAnimationFrame',
                   },
+                  {
+                    text: '4-动画库',
+                    link: '/flutter/动画/004-动画库',
+                  },
                 ],
               },
             ],

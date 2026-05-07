@@ -89,8 +89,7 @@ tags:
 - [1-Transition](./动画/001-Transition.md)
 - [2-Animation](./动画/002-Animation.md)
 - [3-requestAnimationFrame](./动画/003-requestAnimationFrame.md)
-
-### 6.4 Framer Motion vs Flutter Animation APIs
+- [4-动画库](./动画/004-动画库.md)
 
 ### 6.5 Hover/Active/Focus vs GestureDetector/InkWell/Focus
 
