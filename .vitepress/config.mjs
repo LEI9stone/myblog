@@ -307,6 +307,10 @@ export default withPwa(
                     text: '2-flex容器',
                     link: '/flutter/布局与盒模型/002-flex容器',
                   },
+                  {
+                    text: '3-grid容器',
+                    link: '/flutter/布局与盒模型/003-grid容器',
+                  },
                 ],
               },
             ],
