@@ -104,8 +104,7 @@ tags:
 - [4-Props](./组件/004-Props.md)
 - [5-Children](./组件/005-Children.md)
 - [6-Composition](./组件/006-Composition.md)
-
-### 7.7 Controlled Component vs State-driven Widget
+- [7-受控组件](./组件/007-受控组件.md)
 
 ### 7.8 Render Props vs Builder Pattern
 

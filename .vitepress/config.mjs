@@ -454,6 +454,10 @@ export default withPwa(
                     text: '6-Composition',
                     link: '/flutter/组件/006-Composition',
                   },
+                  {
+                    text: '7-受控组件',
+                    link: '/flutter/组件/007-受控组件',
+                  },
                 ],
               },
             ],
