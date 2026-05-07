@@ -18,7 +18,10 @@ export default withPwa(
     title: '小磊',
     description: '小磊的个人博客',
     head: [
-      ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
+      [
+        'link',
+        { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` },
+      ],
     ],
     markdown: {
       lineNumbers: true, // 显示代码行数,
@@ -303,7 +306,7 @@ export default withPwa(
               {
                 text: '非暴力沟通',
                 link: '/book/非暴力沟通/',
-                collapsed: false,
+                collapsed: true,
                 items: [
                   { text: '阅后感', link: '/book/非暴力沟通/阅后感' },
                   {
