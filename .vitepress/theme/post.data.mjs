@@ -1,4 +1,6 @@
 import { createContentLoader } from 'vitepress'
+import { isDisplayablePost } from './post.filter.mjs'
+import { sortPosts } from './post.sort.mjs'
 
 
 export default createContentLoader('/**/*.md', {
@@ -7,7 +9,7 @@ export default createContentLoader('/**/*.md', {
   excerpt: '<!-- more -->',    // 包含摘录?
   transform(raw) {
     return raw
-      .filter(({ url }) => url !== '/' && !url.split('/').includes('diary'))
+      .filter(isDisplayablePost)
       .map(({ url, frontmatter, excerpt, html }) => {
         return ({
           title: frontmatter.title,
@@ -19,7 +21,7 @@ export default createContentLoader('/**/*.md', {
           date: formatDate(frontmatter.date)
         })
       })
-      .sort((a, b) => b.date.time - a.date.time)
+      .sort(sortPosts)
   },
 })
 
