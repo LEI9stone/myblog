@@ -311,6 +311,10 @@ export default withPwa(
                     text: '3-grid容器',
                     link: '/flutter/布局与盒模型/003-grid容器',
                   },
+                  {
+                    text: '4-盒间距',
+                    link: '/flutter/布局与盒模型/004-盒间距',
+                  },
                 ],
               },
             ],
