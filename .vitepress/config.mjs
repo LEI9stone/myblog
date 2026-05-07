@@ -343,20 +343,28 @@ export default withPwa(
                     collapsed: true,
                     items: [
                       {
-                        text: '2026-04-29',
-                        link: '/book/非暴力沟通/diary/26-04/29',
+                        text: '2026-04',
+                        link: '/book/非暴力沟通/diary/26-04/index',
+                        items: [
+                          {
+                            text: '2026-04-29',
+                            link: '/book/非暴力沟通/diary/26-04/29',
+                          },
+                          {
+                            text: '2026-04-30',
+                            link: '/book/非暴力沟通/diary/26-04/30',
+                          },
+                        ],
                       },
                       {
-                        text: '2026-04-30',
-                        link: '/book/非暴力沟通/diary/26-04/30',
-                      },
-                      {
-                        text: '2026-05-06',
-                        link: '/book/非暴力沟通/diary/26-05/06',
-                      },
-                      {
-                        text: '2026-05-07',
-                        link: '/book/非暴力沟通/diary/26-05/07',
+                        text: '2026-05',
+                        link: '/book/非暴力沟通/diary/26-05/index',
+                        items: [
+                          {
+                            text: '2026-05-06',
+                            link: '/book/非暴力沟通/diary/26-05/06',
+                          },
+                        ],
                       },
                     ],
                   },
