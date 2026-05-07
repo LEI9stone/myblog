@@ -380,6 +380,10 @@ export default withPwa(
                     text: '9-字体图标',
                     link: '/flutter/样式系统/009-字体图标',
                   },
+                  {
+                    text: '10-样式主题',
+                    link: '/flutter/样式系统/010-样式主题',
+                  },
                 ],
               },
             ],
