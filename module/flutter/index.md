@@ -101,10 +101,7 @@ tags:
 - [1-React组件](./组件/001-React组件.md)
 - [2-函数式组件](./组件/002-函数式组件.md)
 - [3-状态组件](./组件/003-状态组件.md)
-
-### 7.3 Stateful Component vs StatefulWidget
-
-### 7.4 Props vs Constructor Parameters
+- [4-Props](./组件/004-Props.md)
 
 ### 7.5 Children/Slots vs child/children/builder
 

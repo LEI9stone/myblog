@@ -442,6 +442,10 @@ export default withPwa(
                     text: '3-状态组件',
                     link: '/flutter/组件/003-状态组件',
                   },
+                  {
+                    text: '4-Props',
+                    link: '/flutter/组件/004-Props',
+                  },
                 ],
               },
             ],
