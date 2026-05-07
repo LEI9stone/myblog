@@ -446,6 +446,10 @@ export default withPwa(
                     text: '4-Props',
                     link: '/flutter/组件/004-Props',
                   },
+                  {
+                    text: '5-Children',
+                    link: '/flutter/组件/005-Children',
+                  },
                 ],
               },
             ],

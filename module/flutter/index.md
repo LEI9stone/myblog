@@ -102,6 +102,7 @@ tags:
 - [2-函数式组件](./组件/002-函数式组件.md)
 - [3-状态组件](./组件/003-状态组件.md)
 - [4-Props](./组件/004-Props.md)
+- [5-Children](./组件/005-Children.md)
 
 ### 7.5 Children/Slots vs child/children/builder
 
