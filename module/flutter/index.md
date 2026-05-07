@@ -61,8 +61,7 @@ tags:
 ## 4. 布局与盒模型概念映射
 
 - [1-通用容器](./布局与盒模型/001-通用容器.md)
-
-### 4.2 Flexbox vs Row/Column/Flex/Expanded
+- [2-flex容器](./布局与盒模型/002-flex容器.md)
 
 ### 4.3 CSS Grid vs GridView/SliverGrid
 

@@ -303,6 +303,10 @@ export default withPwa(
                     text: '1-通用容器',
                     link: '/flutter/布局与盒模型/001-通用容器',
                   },
+                  {
+                    text: '2-flex容器',
+                    link: '/flutter/布局与盒模型/002-flex容器',
+                  },
                 ],
               },
             ],
