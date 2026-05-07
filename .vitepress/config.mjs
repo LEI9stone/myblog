@@ -427,6 +427,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '组件',
+                items: [
+                  {
+                    text: '1-React组件',
+                    link: '/flutter/组件/001-React组件',
+                  },
+                ],
+              },
             ],
           },
         ],
