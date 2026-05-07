@@ -393,6 +393,10 @@ export default withPwa(
                     text: '1-Transition',
                     link: '/flutter/动画/001-Transition',
                   },
+                  {
+                    text: '2-Animation',
+                    link: '/flutter/动画/002-Animation',
+                  },
                 ],
               },
             ],

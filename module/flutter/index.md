@@ -87,8 +87,7 @@ tags:
 ## 6. 动画与交互概念映射
 
 - [1-Transition](./动画/001-Transition.md)
-
-### 6.2 CSS Animation vs AnimationController
+- [2-Animation](./动画/002-Animation.md)
 
 ### 6.3 requestAnimationFrame vs Ticker
 
