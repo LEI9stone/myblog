@@ -434,6 +434,10 @@ export default withPwa(
                     text: '1-React组件',
                     link: '/flutter/组件/001-React组件',
                   },
+                  {
+                    text: '2-函数式组件',
+                    link: '/flutter/组件/002-函数式组件',
+                  },
                 ],
               },
             ],

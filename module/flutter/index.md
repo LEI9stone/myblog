@@ -99,8 +99,7 @@ tags:
 ## 7. 组件开发概念映射
 
 - [1-React组件](./组件/001-React组件.md)
-
-### 7.2 Function Component vs StatelessWidget
+- [2-函数式组件](./组件/002-函数式组件.md)
 
 ### 7.3 Stateful Component vs StatefulWidget
 
