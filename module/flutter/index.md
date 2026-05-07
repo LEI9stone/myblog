@@ -92,8 +92,7 @@ tags:
 - [4-动画库](./动画/004-动画库.md)
 - [5-伪类状态](./动画/005-伪类状态.md)
 - [6-交互事件](./动画/006-交互事件.md)
-
-### 6.7 Page Transition vs Route Transition
+- [7-页面过渡](./动画/007-页面过渡.md)
 
 ### 6.8 Skeleton Loading vs Shimmer
 

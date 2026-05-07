@@ -413,6 +413,10 @@ export default withPwa(
                     text: '6-交互事件',
                     link: '/flutter/动画/006-交互事件',
                   },
+                  {
+                    text: '7-页面过渡',
+                    link: '/flutter/动画/007-页面过渡',
+                  },
                 ],
               },
             ],
