@@ -13,47 +13,47 @@ tags:
 
 ## 0. 开始之前：Web 到 Flutter 的心智模型迁移
 
-- [0.1 浏览器运行时 vs Flutter 渲染引擎](./web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎.md)
-- [0.2 DOM/CSSOM vs Widget/Element/RenderObject](./web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject.md)
-- [0.3 Web App 生命周期 vs Flutter App 生命周期](./web到Flutter的心智模型迁移/003-Web%20App%20生命周期%20vs%20Flutter%20App%20生命周期.md)
-- [0.4 SPA 应用结构 vs Flutter 应用结构](./web到Flutter的心智模型迁移/004-SPA应用结构vsFlutter应用结构.md)
-- [0.5 React/Vue/Svelte 开发体验 vs Flutter 开发体验](./web到Flutter的心智模型迁移/005-React&Vue&Svelte开发体验vsFlutter开发体验.md)
+- [1-运行时](./web到Flutter的心智模型迁移/001-运行时.md)
+- [2-渲染树](./web到Flutter的心智模型迁移/002-渲染树.md)
+- [3-声明周期](./web到Flutter的心智模型迁移/003-声明周期.md)
+- [4-应用结构](./web到Flutter的心智模型迁移/004-应用结构.md)
+- [5-开发体验](./web到Flutter的心智模型迁移/005-开发体验.md)
 
 ## 1. 项目结构与工程化概念映射
 
-- [1.1 `package.json` vs `pubspec.yaml`](./项目结构与工程化/001-package.json-vs-pubspec.yaml.md)
-- [1.2 npm/yarn/pnpm vs pub](./项目结构与工程化/002-npm-vs-pub.md)
-- [1.3 Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构](./项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构.md)
-- [1.4 `src/` 目录 vs `lib/` 目录](./项目结构与工程化/004-src目录-vs-lib目录.md)
-- [1.5 静态资源管理：public/assets vs Flutter assets](./项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets.md)
-- [1.6 环境配置：`.env` vs Flutter 环境配置](./项目结构与工程化/006-env-vs-Flutter-环境配置.md)
-- [1.7 Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format](./项目结构与工程化/007-Lint-Format.md)
-- [1.8 Codegen：前端代码生成 vs Flutter build_runner](./项目结构与工程化/008-代码生成.md)
+- [1-依赖管理](./项目结构与工程化/001-依赖管理.md)
+- [2-包管理](./项目结构与工程化/002-包管理.md)
+- [3-工程化](./项目结构与工程化/003-工程化.md)
+- [4-项目结构](./项目结构与工程化/004-项目结构.md)
+- [5-静态资源](./项目结构与工程化/005-静态资源.md)
+- [6-环境配置](./项目结构与工程化/006-环境配置.md)
+- [7-代码质量](./项目结构与工程化/007-代码质量.md)
+- [8-代码生成](./项目结构与工程化/008-代码生成.md)
 
 ## 2. Dart 基础：从 JavaScript/TypeScript 映射到 Dart
 
-- [2.1 JavaScript Runtime vs Dart Runtime](./js和dart/001-运行时.md)
-- [2.2 TypeScript 类型系统 vs Dart 类型系统](./js和dart/002-类型系统.md)
-- [2.3 `let/const` vs `final/const/var`](./js和dart/003-变量声明.md)
-- [2.4 Interface/Type Alias vs Class/Abstract Class/Extension](./js和dart/004-类型声明.md)
-- [2.5 Union Type vs sealed class / enum / Freezed](./js和dart/005-联合类型.md)
-- [2.6 Optional/Nullable vs Dart Null Safety](./js和dart/006-空类型安全.md)
-- [2.7 Promise/async/await vs Future/async/await](./js和dart/007-异步.md)
-- [2.8 Array/Object/Map vs List/Map/Record/Class](./js和dart/008-结构化数据.md)
-- [2.9 Module Import/Export vs Dart Import/Export](./js和dart/009-模块.md)
-- [2.10 泛型：TypeScript Generics vs Dart Generics](./js和dart/010-泛型.md)
-- [2.11 函数式写法：JS 高阶函数 vs Dart 函数对象](./js和dart/011-函数式写法.md)
-- [2.12 错误处理：try/catch vs Dart Exception/Error](./js和dart/012-错误处理.md)
+- [1-运行时](./js和dart/001-运行时.md)
+- [2-类型系统](./js和dart/002-类型系统.md)
+- [3-变量声明](./js和dart/003-变量声明.md)
+- [4-类型声明](./js和dart/004-类型声明.md)
+- [5-联合类型](./js和dart/005-联合类型.md)
+- [6-空类型安全](./js和dart/006-空类型安全.md)
+- [7-异步](./js和dart/007-异步.md)
+- [8-结构化数据](./js和dart/008-结构化数据.md)
+- [9-模块](./js和dart/009-模块.md)
+- [10-泛型](./js和dart/010-泛型.md)
+- [11-函数式写法](./js和dart/011-函数式写法.md)
+- [12-错误处理](./js和dart/012-错误处理.md)
 
 ## 3. UI 基础：HTML/CSS 到 Flutter Widget
 
-- [3.1 HTML 标签 vs Flutter Widget](./基础UI/001-标签.md)
-- [3.2 DOM Tree vs Widget Tree](./基础UI/002-页面树.md)
-- [3.3 CSS Box Model vs Flutter Layout Model](./基础UI/003-盒模型.md)
-- [3.4 CSS Display/Flex/Grid vs Flutter Row/Column/Grid](./基础UI/004-布局.md)
-- [3.5 CSS Position vs Stack/Positioned/Align](./基础UI/005-定位.md)
-- [3.6 CSS Overflow vs Clip/ScrollView](./基础UI/006-溢出隐藏.md)
-- [3.7 CSS Units vs Flutter Logical Pixels](./基础UI/007-样式单位.md)
+- [1-标签](./基础UI/001-标签.md)
+- [2-页面树](./基础UI/002-页面树.md)
+- [3-盒模型](./基础UI/003-盒模型.md)
+- [4-布局](./基础UI/004-布局.md)
+- [5-定位](./基础UI/005-定位.md)
+- [6-溢出隐藏](./基础UI/006-溢出隐藏.md)
+- [7-样式单位](./基础UI/007-样式单位.md)
 
 ### 3.8 Media Query vs Flutter MediaQuery/LayoutBuilder
 

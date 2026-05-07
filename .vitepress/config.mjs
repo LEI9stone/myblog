@@ -139,24 +139,24 @@ export default withPwa(
                 text: 'web到Flutter的心智模型迁移',
                 items: [
                   {
-                    text: '浏览器运行时 vs Flutter 渲染引擎',
-                    link: '/flutter/web到Flutter的心智模型迁移/001-浏览器运行时vsFlutter渲染引擎',
+                    text: '1-运行时',
+                    link: '/flutter/web到Flutter的心智模型迁移/001-运行时',
                   },
                   {
-                    text: 'DOM/CSSOM vs Widget/Element/RenderObject',
-                    link: '/flutter/web到Flutter的心智模型迁移/002-DOM&CSSOMvsWidget&Element&RenderObject',
+                    text: '2-渲染树',
+                    link: '/flutter/web到Flutter的心智模型迁移/002-渲染树',
                   },
                   {
-                    text: 'Web App 生命周期 vs Flutter App 生命周期',
-                    link: '/flutter/web到Flutter的心智模型迁移/003-Web%20App%20生命周期%20vs%20Flutter%20App%20生命周期',
+                    text: '3-声明周期',
+                    link: '/flutter/web到Flutter的心智模型迁移/003-声明周期',
                   },
                   {
-                    text: 'SPA 应用结构 vs Flutter 应用结构',
-                    link: '/flutter/web到Flutter的心智模型迁移/004-SPA应用结构vsFlutter应用结构',
+                    text: '4-应用结构',
+                    link: '/flutter/web到Flutter的心智模型迁移/004-应用结构',
                   },
                   {
-                    text: 'React/Vue/Svelte 开发体验 vs Flutter 开发体验',
-                    link: '/flutter/web到Flutter的心智模型迁移/005-React&Vue&Svelte开发体验vsFlutter开发体验',
+                    text: '5-开发体验',
+                    link: '/flutter/web到Flutter的心智模型迁移/005-开发体验',
                   },
                 ],
               },
@@ -164,35 +164,35 @@ export default withPwa(
                 text: '项目结构与工程化',
                 items: [
                   {
-                    text: 'package.json vs pubspec.yaml',
-                    link: '/flutter/项目结构与工程化/001-package.json-vs-pubspec.yaml',
+                    text: '1-依赖管理',
+                    link: '/flutter/项目结构与工程化/001-依赖管理',
                   },
                   {
-                    text: 'npm/yarn/pnpm vs pub',
-                    link: '/flutter/项目结构与工程化/002-npm-vs-pub',
+                    text: '2-包管理',
+                    link: '/flutter/项目结构与工程化/002-包管理',
                   },
                   {
-                    text: 'Vite/Webpack/Next.js 工程结构 vs Flutter 工程结构',
-                    link: '/flutter/项目结构与工程化/003-Vite-Webpack-Next.js工程结构-vs-Flutter工程结构',
+                    text: '3-工程化',
+                    link: '/flutter/项目结构与工程化/003-工程化',
                   },
                   {
-                    text: 'src/ 目录 vs lib/ 目录',
-                    link: '/flutter/项目结构与工程化/004-src目录-vs-lib目录',
+                    text: '4-项目结构',
+                    link: '/flutter/项目结构与工程化/004-项目结构',
                   },
                   {
-                    text: '静态资源管理：public/assets vs Flutter assets',
-                    link: '/flutter/项目结构与工程化/005-静态资源管理-public-assets-vs-Flutter-assets',
+                    text: '5-静态资源',
+                    link: '/flutter/项目结构与工程化/005-静态资源',
                   },
                   {
-                    text: '环境配置：`.env` vs Flutter 环境配置',
-                    link: '/flutter/项目结构与工程化/006-env-vs-Flutter-环境配置',
+                    text: '6-环境配置',
+                    link: '/flutter/项目结构与工程化/006-环境配置',
                   },
                   {
-                    text: 'Lint/Format：ESLint/Prettier vs Dart Analyzer/dart format',
-                    link: '/flutter/项目结构与工程化/007-Lint-Format',
+                    text: '7-代码质量',
+                    link: '/flutter/项目结构与工程化/007-代码质量',
                   },
                   {
-                    text: 'Codegen：前端代码生成 vs Flutter build_runner',
+                    text: '8-代码生成',
                     link: '/flutter/项目结构与工程化/008-代码生成',
                   },
                 ],
@@ -201,51 +201,51 @@ export default withPwa(
                 text: 'JavaScript 和 Dart 的差异',
                 items: [
                   {
-                    text: 'JavaScript Runtime vs Dart Runtime',
+                    text: '1-运行时',
                     link: '/flutter/js和dart/001-运行时',
                   },
                   {
-                    text: 'TypeScript 类型系统 vs Dart 类型系统',
+                    text: '2-类型系统',
                     link: '/flutter/js和dart/002-类型系统',
                   },
                   {
-                    text: 'let/const vs final/const/var',
+                    text: '3-变量声明',
                     link: '/flutter/js和dart/003-变量声明',
                   },
                   {
-                    text: 'Interface/Type Alias vs Class/Abstract Class/Extension',
+                    text: '4-类型声明',
                     link: '/flutter/js和dart/004-类型声明',
                   },
                   {
-                    text: 'Union Type vs sealed class / enum / Freezed',
+                    text: '5-联合类型',
                     link: '/flutter/js和dart/005-联合类型',
                   },
                   {
-                    text: 'Optional/Nullable vs Dart Null Safety',
+                    text: '6-空类型安全',
                     link: '/flutter/js和dart/006-空类型安全',
                   },
                   {
-                    text: 'Promise/async/await vs Future/async/await',
+                    text: '7-异步',
                     link: '/flutter/js和dart/007-异步',
                   },
                   {
-                    text: 'Array/Object/Map vs List/Map/Record/Class',
+                    text: '8-结构化数据',
                     link: '/flutter/js和dart/008-结构化数据',
                   },
                   {
-                    text: 'Module Import/Export vs Dart Import/Export',
+                    text: '9-模块',
                     link: '/flutter/js和dart/009-模块',
                   },
                   {
-                    text: '泛型：TypeScript Generics vs Dart Generics',
+                    text: '10-泛型',
                     link: '/flutter/js和dart/010-泛型',
                   },
                   {
-                    text: '函数式写法：JS 高阶函数 vs Dart 函数对象',
+                    text: '11-函数式写法',
                     link: '/flutter/js和dart/011-函数式写法',
                   },
                   {
-                    text: '错误处理：try/catch vs Dart Exception/Error',
+                    text: '12-错误处理',
                     link: '/flutter/js和dart/012-错误处理',
                   },
                 ],
@@ -254,31 +254,31 @@ export default withPwa(
                 text: 'UI 基础：HTML/CSS 到 Flutter Widget',
                 items: [
                   {
-                    text: 'HTML 标签 vs Flutter Widget',
+                    text: '1-标签',
                     link: '/flutter/基础UI/001-标签',
                   },
                   {
-                    text: 'DOM Tree vs Widget Tree',
+                    text: '2-页面树',
                     link: '/flutter/基础UI/002-页面树',
                   },
                   {
-                    text: 'CSS Box Model vs Flutter Layout Model',
+                    text: '3-盒模型',
                     link: '/flutter/基础UI/003-盒模型',
                   },
                   {
-                    text: 'CSS Display/Flex/Grid vs Flutter Row/Column/Grid',
+                    text: '4-布局',
                     link: '/flutter/基础UI/004-布局',
                   },
                   {
-                    text: 'CSS Position vs Stack/Positioned/Align',
+                    text: '5-定位',
                     link: '/flutter/基础UI/005-定位',
                   },
                   {
-                    text: 'CSS Overflow vs Clip/ScrollView',
+                    text: '6-溢出隐藏',
                     link: '/flutter/基础UI/006-溢出隐藏',
                   },
                   {
-                    text: 'CSS Units vs Flutter Logical Pixels',
+                    text: '7-样式单位',
                     link: '/flutter/基础UI/007-样式单位',
                   },
                 ],
