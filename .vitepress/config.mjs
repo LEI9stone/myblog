@@ -327,6 +327,10 @@ export default withPwa(
                     text: '7-盒层级',
                     link: '/flutter/布局与盒模型/007-盒层级',
                   },
+                  {
+                    text: '8-定位',
+                    link: '/flutter/布局与盒模型/008-定位',
+                  },
                 ],
               },
             ],

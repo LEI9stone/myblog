@@ -67,8 +67,7 @@ tags:
 - [5-盒宽度](./布局与盒模型/005-盒宽度.md)
 - [6-尺寸边界](./布局与盒模型/006-尺寸边界.md)
 - [7-盒层级](./布局与盒模型/007-盒层级.md)
-
-### 4.8 position absolute/fixed/sticky vs Positioned/Overlay/Sliver
+- [8-定位](./布局与盒模型/008-定位.md)
 
 ### 4.9 overflow scroll vs SingleChildScrollView/ListView/CustomScrollView
 
