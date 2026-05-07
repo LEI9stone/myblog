@@ -295,6 +295,16 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '布局与盒模型',
+                collapsed: false,
+                items: [
+                  {
+                    text: '1-通用容器',
+                    link: '/flutter/布局与盒模型/001-通用容器',
+                  },
+                ],
+              },
             ],
           },
         ],
