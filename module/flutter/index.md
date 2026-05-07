@@ -88,8 +88,7 @@ tags:
 
 - [1-Transition](./动画/001-Transition.md)
 - [2-Animation](./动画/002-Animation.md)
-
-### 6.3 requestAnimationFrame vs Ticker
+- [3-requestAnimationFrame](./动画/003-requestAnimationFrame.md)
 
 ### 6.4 Framer Motion vs Flutter Animation APIs
 
