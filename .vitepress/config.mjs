@@ -417,6 +417,10 @@ export default withPwa(
                     text: '7-页面过渡',
                     link: '/flutter/动画/007-页面过渡',
                   },
+                  {
+                    text: '8-骨架屏',
+                    link: '/flutter/动画/008-骨架屏',
+                  },
                 ],
               },
             ],

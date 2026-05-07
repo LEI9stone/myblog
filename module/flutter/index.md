@@ -93,8 +93,7 @@ tags:
 - [5-伪类状态](./动画/005-伪类状态.md)
 - [6-交互事件](./动画/006-交互事件.md)
 - [7-页面过渡](./动画/007-页面过渡.md)
-
-### 6.8 Skeleton Loading vs Shimmer
+- [7-骨架屏](./动画/008-骨架屏.md)
 
 ### 6.9 Loading State Animation vs Flutter Loading Widgets
 
