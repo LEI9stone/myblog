@@ -91,8 +91,7 @@ tags:
 - [3-requestAnimationFrame](./动画/003-requestAnimationFrame.md)
 - [4-动画库](./动画/004-动画库.md)
 - [5-伪类状态](./动画/005-伪类状态.md)
-
-### 6.6 Web Gesture Events vs Flutter Gesture System
+- [6-交互事件](./动画/006-交互事件.md)
 
 ### 6.7 Page Transition vs Route Transition
 

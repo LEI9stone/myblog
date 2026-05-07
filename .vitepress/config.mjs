@@ -409,6 +409,10 @@ export default withPwa(
                     text: '5-伪类状态',
                     link: '/flutter/动画/005-伪类状态',
                   },
+                  {
+                    text: '6-交互事件',
+                    link: '/flutter/动画/006-交互事件',
+                  },
                 ],
               },
             ],
