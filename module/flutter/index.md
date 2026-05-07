@@ -77,8 +77,7 @@ tags:
 - [2-内联样式](./样式系统/002-内联样式.md)
 - [3-样式变量](./样式系统/003-样式变量.md)
 - [4-Design Tokens](./样式系统/004-Design-Tokens.md)
-
-### 5.5 CSS Cascade vs Flutter 显式样式传递
+- [5-样式层叠](./样式系统/005-样式层叠.md)
 
 ### 5.6 CSS Selector vs Widget Composition
 

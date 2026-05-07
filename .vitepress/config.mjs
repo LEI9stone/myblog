@@ -360,6 +360,10 @@ export default withPwa(
                     text: '4-Design Tokens',
                     link: '/flutter/样式系统/004-Design-Tokens',
                   },
+                  {
+                    text: '5-样式层叠',
+                    link: '/flutter/样式系统/005-样式层叠',
+                  },
                 ],
               },
             ],
