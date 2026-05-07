@@ -79,8 +79,7 @@ tags:
 - [4-Design Tokens](./样式系统/004-Design-Tokens.md)
 - [5-样式层叠](./样式系统/005-样式层叠.md)
 - [6-样式选择器](./样式系统/006-样式选择器.md)
-
-### 5.7 Font/Text Style vs TextStyle
+- [7-字体样式](./样式系统/007-字体样式.md)
 
 ### 5.8 Border/Radius/Shadow vs BoxDecoration
 

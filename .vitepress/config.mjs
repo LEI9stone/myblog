@@ -368,6 +368,10 @@ export default withPwa(
                     text: '6-样式选择器',
                     link: '/flutter/样式系统/006-样式选择器',
                   },
+                  {
+                    text: '7-字体样式',
+                    link: '/flutter/样式系统/007-字体样式',
+                  },
                 ],
               },
             ],
