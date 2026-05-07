@@ -421,6 +421,10 @@ export default withPwa(
                     text: '8-骨架屏',
                     link: '/flutter/动画/008-骨架屏',
                   },
+                  {
+                    text: '9-加载态',
+                    link: '/flutter/动画/009-加载态',
+                  },
                 ],
               },
             ],
