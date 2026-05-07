@@ -319,6 +319,10 @@ export default withPwa(
                     text: '5-盒宽度',
                     link: '/flutter/布局与盒模型/005-盒宽度',
                   },
+                  {
+                    text: '6-尺寸边界',
+                    link: '/flutter/布局与盒模型/006-尺寸边界',
+                  },
                 ],
               },
             ],
