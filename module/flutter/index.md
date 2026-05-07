@@ -75,8 +75,7 @@ tags:
 
 - [1-样式命名](./样式系统/001-样式命名.md)
 - [2-内联样式](./样式系统/002-内联样式.md)
-
-### 5.3 CSS Variables vs ThemeExtension/InheritedWidget
+- [3-样式变量](./样式系统/003-样式变量.md)
 
 ### 5.4 Design Tokens vs AppTheme/AppColors/AppTextStyles
 
