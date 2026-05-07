@@ -105,8 +105,7 @@ tags:
 - [5-Children](./组件/005-Children.md)
 - [6-Composition](./组件/006-Composition.md)
 - [7-受控组件](./组件/007-受控组件.md)
-
-### 7.8 Render Props vs Builder Pattern
+- [8-渲染函数](./组件/008-渲染函数.md)
 
 ### 7.9 Custom Hook vs Provider/Notifier/Controller
 

@@ -458,6 +458,10 @@ export default withPwa(
                     text: '7-受控组件',
                     link: '/flutter/组件/007-受控组件',
                   },
+                  {
+                    text: '8-渲染函数',
+                    link: '/flutter/组件/008-渲染函数',
+                  },
                 ],
               },
             ],
