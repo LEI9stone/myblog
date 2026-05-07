@@ -289,6 +289,10 @@ export default withPwa(
                     text: '9-多屏适配',
                     link: '/flutter/基础UI/009-多屏适配',
                   },
+                  {
+                    text: '10-可访问性',
+                    link: '/flutter/基础UI/010-可访问性',
+                  },
                 ],
               },
             ],
