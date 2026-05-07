@@ -96,8 +96,6 @@ tags:
 - [8-骨架屏](./动画/008-骨架屏.md)
 - [9-加载态](./动画/009-加载态.md)
 
----
-
 ## 7. 组件开发概念映射
 
 ### 7.1 React Component vs Flutter Widget
@@ -122,8 +120,6 @@ tags:
 
 ### 7.11 Storybook vs Widget Preview/Golden Test
 
----
-
 ## 8. 状态管理概念映射
 
 ### 8.1 React useState vs StatefulWidget State
@@ -145,8 +141,6 @@ tags:
 ### 8.9 State Mutation vs Immutable State
 
 ### 8.10 Side Effects vs Notifier/Controller/Effect Layer
-
----
 
 ## 9. 路由与页面导航概念映射
 
@@ -170,8 +164,6 @@ tags:
 
 ### 9.10 Deep Link vs App Link/Universal Link
 
----
-
 ## 10. 网络请求概念映射
 
 ### 10.1 fetch/axios vs dio
@@ -194,8 +186,6 @@ tags:
 
 ### 10.10 API Mock vs Fake Repository/Test Client
 
----
-
 ## 11. 数据模型与序列化概念映射
 
 ### 11.1 TypeScript Interface vs Dart Model Class
@@ -213,8 +203,6 @@ tags:
 ### 11.7 Decimal/Number Precision vs decimal
 
 ### 11.8 API Schema vs Generated Model
-
----
 
 ## 12. 数据存储概念映射
 
@@ -236,8 +224,6 @@ tags:
 
 ### 12.9 Web Storage Security vs Mobile Secure Storage
 
----
-
 ## 13. 表单与输入概念映射
 
 ### 13.1 HTML Form vs Form Widget
@@ -255,8 +241,6 @@ tags:
 ### 13.7 File Upload vs Image Picker/File Picker
 
 ### 13.8 Mobile Keyboard UX vs Input Formatter/Focus Flow
-
----
 
 ## 14. 列表、滚动与复杂页面概念映射
 
@@ -276,8 +260,6 @@ tags:
 
 ### 14.8 Empty/Error/Loading List State vs State View Widgets
 
----
-
 ## 15. 图片、视频与媒体资源概念映射
 
 ### 15.1 img 标签 vs Image Widget
@@ -295,8 +277,6 @@ tags:
 ### 15.7 Image Placeholder vs Loading Skeleton
 
 ### 15.8 Asset Optimization vs Flutter Asset Pipeline
-
----
 
 ## 16. 应用架构概念映射
 
@@ -318,8 +298,6 @@ tags:
 
 ### 16.9 Monorepo Thinking vs Flutter App Module
 
----
-
 ## 17. 错误处理与异常状态概念映射
 
 ### 17.1 try/catch vs Dart Exception Handling
@@ -335,8 +313,6 @@ tags:
 ### 17.6 Global Error Toast vs ScaffoldMessenger/Dialog
 
 ### 17.7 Logging vs Flutter/Dart Logging
-
----
 
 ## 18. 测试概念映射
 
@@ -356,8 +332,6 @@ tags:
 
 ### 18.8 State Test vs Provider/Notifier Test
 
----
-
 ## 19. 调试与开发工具概念映射
 
 ### 19.1 Browser DevTools vs Flutter DevTools
@@ -373,8 +347,6 @@ tags:
 ### 19.6 Hot Reload vs Vite HMR
 
 ### 19.7 Source Map vs Dart Debug Symbols
-
----
 
 ## 20. 构建、发布与平台能力概念映射
 
@@ -393,51 +365,3 @@ tags:
 ### 20.7 Browser Permissions vs Native Permissions
 
 ### 20.8 Web APIs vs Flutter Plugins
-
----
-
-## 21. 渐进式实战路线目录
-
-### 21.1 第一个页面：从 HTML 页面到 Flutter 页面
-
-### 21.2 第一个组件：从 React Component 到 StatelessWidget
-
-### 21.3 第一个状态：从 useState 到 StatefulWidget/Riverpod
-
-### 21.4 第一个列表页：从 map 渲染到 ListView.builder
-
-### 21.5 第一个接口请求：从 axios 到 dio
-
-### 21.6 第一个数据模型：从 TypeScript Interface 到 Freezed Model
-
-### 21.7 第一个路由：从 React Router 到 go_router
-
-### 21.8 第一个表单：从 HTML Form 到 Flutter Form
-
-### 21.9 第一个缓存：从 localStorage 到 shared_preferences
-
-### 21.10 第一个完整业务模块：页面、状态、接口、模型、存储闭环
-
----
-
-## 22. 推荐学习顺序
-
-### 22.1 Dart 语法与类型系统
-
-### 22.2 Widget Tree 与布局模型
-
-### 22.3 组件拆分与样式组织
-
-### 22.4 状态管理与 Riverpod
-
-### 22.5 路由与页面结构
-
-### 22.6 网络请求与数据模型
-
-### 22.7 本地存储与缓存
-
-### 22.8 列表、滚动、图片、视频
-
-### 22.9 测试与调试
-
-### 22.10 工程化、构建与发布
