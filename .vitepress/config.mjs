@@ -450,6 +450,10 @@ export default withPwa(
                     text: '5-Children',
                     link: '/flutter/组件/005-Children',
                   },
+                  {
+                    text: '6-Composition',
+                    link: '/flutter/组件/006-Composition',
+                  },
                 ],
               },
             ],
