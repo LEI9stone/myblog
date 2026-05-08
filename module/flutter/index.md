@@ -127,8 +127,7 @@ tags:
 
 - [1-路由地址](./路由导航/001-路由地址.md)
 - [2-路由库](./路由导航/002-路由库.md)
-
-### 9.3 Page Component vs Screen/Page Widget
+- [3-路由页面](./路由导航/003-路由页面.md)
 
 ### 9.4 Nested Routes vs ShellRoute/Nested Navigation
 
