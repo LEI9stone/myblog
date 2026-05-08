@@ -470,6 +470,10 @@ export default withPwa(
                     text: '10-组件封装',
                     link: '/flutter/组件/010-组件封装',
                   },
+                  {
+                    text: '11-组件调试',
+                    link: '/flutter/组件/011-组件调试',
+                  },
                 ],
               },
             ],
