@@ -116,8 +116,7 @@ tags:
 - [2-状态传递](./状态管理/002-状态传递.md)
 - [3-状态管理方案](./状态管理/003-状态管理方案.md)
 - [4-接口状态管理](./状态管理/004-接口状态管理.md)
-
-### 8.5 Derived State vs Computed Provider
+- [5-计算状态](./状态管理/005-计算状态.md)
 
 ### 8.6 Global State vs App-level Provider
 

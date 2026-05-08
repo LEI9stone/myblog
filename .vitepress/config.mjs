@@ -495,6 +495,10 @@ export default withPwa(
                     text: '4-接口状态管理',
                     link: '/flutter/状态管理/004-接口状态管理',
                   },
+                  {
+                    text: '5-计算状态',
+                    link: '/flutter/状态管理/005-计算状态',
+                  },
                 ],
               },
             ],
