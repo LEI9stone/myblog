@@ -491,6 +491,10 @@ export default withPwa(
                     text: '3-状态管理方案',
                     link: '/flutter/状态管理/003-状态管理方案',
                   },
+                  {
+                    text: '4-接口状态管理',
+                    link: '/flutter/状态管理/004-接口状态管理',
+                  },
                 ],
               },
             ],
