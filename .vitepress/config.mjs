@@ -594,6 +594,10 @@ export default withPwa(
                     text: '7-鉴权',
                     link: '/flutter/网络请求/007-鉴权',
                   },
+                  {
+                    text: '8-取消请求',
+                    link: '/flutter/网络请求/008-取消请求',
+                  },
                 ],
               },
             ],

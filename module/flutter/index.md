@@ -145,8 +145,7 @@ tags:
 - [5-接口声明](./网络请求/005-接口申明.md)
 - [6-接口状态](./网络请求/006-接口状态.md)
 - [7-鉴权](./网络请求/007-鉴权.md)
-
-### 10.8 Request Cancellation vs CancelToken
+- [8-取消请求](./网络请求/008-取消请求.md)
 
 ### 10.9 Retry/Timeout vs Dio Options
 
