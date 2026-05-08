@@ -119,8 +119,7 @@ tags:
 - [5-计算状态](./状态管理/005-计算状态.md)
 - [6-全局状态](./状态管理/006-全局状态.md)
 - [7-局部状态](./状态管理/007-局部状态.md)
-
-### 8.8 Cache State vs Repository/Provider Cache
+- [8-缓存数据](./状态管理/008-缓存数据.md)
 
 ### 8.9 State Mutation vs Immutable State
 

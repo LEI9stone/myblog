@@ -507,6 +507,10 @@ export default withPwa(
                     text: '7-局部状态',
                     link: '/flutter/状态管理/007-局部状态',
                   },
+                  {
+                    text: '8-缓存数据',
+                    link: '/flutter/状态管理/008-缓存数据',
+                  },
                 ],
               },
             ],
