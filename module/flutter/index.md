@@ -130,8 +130,7 @@ tags:
 - [3-路由页面](./路由导航/003-路由页面.md)
 - [4-嵌套路由](./路由导航/004-嵌套路由.md)
 - [5-地址查询参数](./路由导航/005-地址查询参数.md)
-
-### 9.6 Path Params vs Route Path Parameters
+- [6-地址参数](./路由导航/006-地址参数.md)
 
 ### 9.7 Navigation Guard vs Redirect/Auth Guard
 
