@@ -143,8 +143,7 @@ tags:
 - [3-API封装](./网络请求/003-API封装.md)
 - [4-JSON序列化](./网络请求/004-JSON序列化.md)
 - [5-接口声明](./网络请求/005-接口申明.md)
-
-### 10.6 Loading/Error/Success State vs AsyncValue
+- [6-接口状态](./网络请求/006-接口状态.md)
 
 ### 10.7 Token Header vs Auth Interceptor
 
