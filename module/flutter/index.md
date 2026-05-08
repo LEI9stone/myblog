@@ -146,8 +146,7 @@ tags:
 - [6-接口状态](./网络请求/006-接口状态.md)
 - [7-鉴权](./网络请求/007-鉴权.md)
 - [8-取消请求](./网络请求/008-取消请求.md)
-
-### 10.9 Retry/Timeout vs Dio Options
+- [9-超时重试](./网络请求/009-超时重试.md)
 
 ### 10.10 API Mock vs Fake Repository/Test Client
 

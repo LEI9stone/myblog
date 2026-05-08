@@ -598,6 +598,10 @@ export default withPwa(
                     text: '8-取消请求',
                     link: '/flutter/网络请求/008-取消请求',
                   },
+                  {
+                    text: '9-超时重试',
+                    link: '/flutter/网络请求/009-超时重试',
+                  },
                 ],
               },
             ],
