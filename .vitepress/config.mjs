@@ -570,6 +570,10 @@ export default withPwa(
                     text: '1-发起请求',
                     link: '/flutter/网络请求/001-发起请求',
                   },
+                  {
+                    text: '2-拦截器',
+                    link: '/flutter/网络请求/002-拦截器',
+                  },
                 ],
               },
             ],
