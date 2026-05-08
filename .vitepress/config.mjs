@@ -499,6 +499,10 @@ export default withPwa(
                     text: '5-计算状态',
                     link: '/flutter/状态管理/005-计算状态',
                   },
+                  {
+                    text: '6-全局状态',
+                    link: '/flutter/状态管理/006-全局状态',
+                  },
                 ],
               },
             ],
