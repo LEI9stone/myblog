@@ -133,8 +133,7 @@ tags:
 - [6-地址参数](./路由导航/006-地址参数.md)
 - [7-路由守卫](./路由导航/007-路由守卫.md)
 - [8-路由栈](./路由导航/008-路由栈.md)
-
-### 9.9 Tab Navigation vs StatefulShellRoute/BottomNavigationBar
+- [9-tabbar](./路由导航/009-tabbar.md)
 
 ### 9.10 Deep Link vs App Link/Universal Link
 
