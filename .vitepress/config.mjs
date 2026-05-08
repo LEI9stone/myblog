@@ -578,6 +578,10 @@ export default withPwa(
                     text: '3-API封装',
                     link: '/flutter/网络请求/003-API封装',
                   },
+                  {
+                    text: '4-JSON序列化',
+                    link: '/flutter/网络请求/004-JSON序列化',
+                  },
                 ],
               },
             ],

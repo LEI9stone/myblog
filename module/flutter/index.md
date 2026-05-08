@@ -141,8 +141,7 @@ tags:
 - [1-发起请求](./网络请求/001-发起请求.md)
 - [2-拦截器](./网络请求/002-拦截器.md)
 - [3-API封装](./网络请求/003-API封装.md)
-
-### 10.4 JSON.parse/stringify vs json_serializable
+- [4-JSON序列化](./网络请求/004-JSON序列化.md)
 
 ### 10.5 TypeScript DTO vs Dart Model
 
