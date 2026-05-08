@@ -515,6 +515,10 @@ export default withPwa(
                     text: '9-单一数据流',
                     link: '/flutter/状态管理/009-单一数据流',
                   },
+                  {
+                    text: '10-状态副作用',
+                    link: '/flutter/状态管理/010-状态副作用',
+                  },
                 ],
               },
             ],
