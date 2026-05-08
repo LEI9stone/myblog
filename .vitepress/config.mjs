@@ -582,6 +582,10 @@ export default withPwa(
                     text: '4-JSON序列化',
                     link: '/flutter/网络请求/004-JSON序列化',
                   },
+                  {
+                    text: '5-接口声明',
+                    link: '/flutter/网络请求/005-接口申明',
+                  },
                 ],
               },
             ],

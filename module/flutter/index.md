@@ -142,8 +142,7 @@ tags:
 - [2-拦截器](./网络请求/002-拦截器.md)
 - [3-API封装](./网络请求/003-API封装.md)
 - [4-JSON序列化](./网络请求/004-JSON序列化.md)
-
-### 10.5 TypeScript DTO vs Dart Model
+- [5-接口声明](./网络请求/005-接口申明.md)
 
 ### 10.6 Loading/Error/Success State vs AsyncValue
 
