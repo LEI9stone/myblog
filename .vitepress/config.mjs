@@ -503,6 +503,10 @@ export default withPwa(
                     text: '6-全局状态',
                     link: '/flutter/状态管理/006-全局状态',
                   },
+                  {
+                    text: '7-局部状态',
+                    link: '/flutter/状态管理/007-局部状态',
+                  },
                 ],
               },
             ],
