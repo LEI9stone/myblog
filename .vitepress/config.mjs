@@ -590,6 +590,10 @@ export default withPwa(
                     text: '6-接口状态',
                     link: '/flutter/网络请求/006-接口状态',
                   },
+                  {
+                    text: '7-鉴权',
+                    link: '/flutter/网络请求/007-鉴权',
+                  },
                 ],
               },
             ],

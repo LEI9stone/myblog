@@ -144,8 +144,7 @@ tags:
 - [4-JSON序列化](./网络请求/004-JSON序列化.md)
 - [5-接口声明](./网络请求/005-接口申明.md)
 - [6-接口状态](./网络请求/006-接口状态.md)
-
-### 10.7 Token Header vs Auth Interceptor
+- [7-鉴权](./网络请求/007-鉴权.md)
 
 ### 10.8 Request Cancellation vs CancelToken
 
