@@ -112,7 +112,7 @@ tags:
 
 ## 8. 状态管理概念映射
 
-### 8.1 React useState vs StatefulWidget State
+- [1-内部状态](./状态管理/001-内部状态.md)
 
 ### 8.2 React Context vs InheritedWidget/Provider
 

@@ -476,6 +476,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '状态管理',
+                items: [
+                  {
+                    text: '1-内部状态',
+                    link: '/flutter/状态管理/001-内部状态',
+                  },
+                ],
+              },
             ],
           },
         ],
