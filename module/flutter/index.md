@@ -120,8 +120,7 @@ tags:
 - [6-全局状态](./状态管理/006-全局状态.md)
 - [7-局部状态](./状态管理/007-局部状态.md)
 - [8-缓存数据](./状态管理/008-缓存数据.md)
-
-### 8.9 State Mutation vs Immutable State
+- [9-单一数据流](./状态管理/009-单一数据流.md)
 
 ### 8.10 Side Effects vs Notifier/Controller/Effect Layer
 

@@ -511,6 +511,10 @@ export default withPwa(
                     text: '8-缓存数据',
                     link: '/flutter/状态管理/008-缓存数据',
                   },
+                  {
+                    text: '9-单一数据流',
+                    link: '/flutter/状态管理/009-单一数据流',
+                  },
                 ],
               },
             ],
