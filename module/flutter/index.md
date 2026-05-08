@@ -113,8 +113,7 @@ tags:
 ## 8. 状态管理概念映射
 
 - [1-内部状态](./状态管理/001-内部状态.md)
-
-### 8.2 React Context vs InheritedWidget/Provider
+- [2-状态传递](./状态管理/002-状态传递.md)
 
 ### 8.3 Redux/Zustand/Jotai vs Riverpod
 
