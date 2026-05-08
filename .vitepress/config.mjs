@@ -487,6 +487,10 @@ export default withPwa(
                     text: '2-状态传递',
                     link: '/flutter/状态管理/002-状态传递',
                   },
+                  {
+                    text: '3-状态管理方案',
+                    link: '/flutter/状态管理/003-状态管理方案',
+                  },
                 ],
               },
             ],
