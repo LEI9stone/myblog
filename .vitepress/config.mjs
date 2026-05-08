@@ -521,6 +521,12 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '路由导航',
+                items: [
+                  { text: '路由地址', link: '/flutter/路由导航/001-路由地址' },
+                ],
+              },
             ],
           },
         ],

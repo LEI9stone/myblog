@@ -123,11 +123,9 @@ tags:
 - [9-单一数据流](./状态管理/009-单一数据流.md)
 - [10-状态副作用](./状态管理/010-状态副作用.md)
 
-### 8.10 Side Effects vs Notifier/Controller/Effect Layer
-
 ## 9. 路由与页面导航概念映射
 
-### 9.1 Browser URL vs Flutter Route
+- [路由地址](./路由导航/001-路由地址.md)
 
 ### 9.2 React Router vs go_router
 
