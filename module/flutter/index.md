@@ -125,9 +125,8 @@ tags:
 
 ## 9. 路由与页面导航概念映射
 
-- [路由地址](./路由导航/001-路由地址.md)
-
-### 9.2 React Router vs go_router
+- [1-路由地址](./路由导航/001-路由地址.md)
+- [2-路由库](./路由导航/002-路由库.md)
 
 ### 9.3 Page Component vs Screen/Page Widget
 
