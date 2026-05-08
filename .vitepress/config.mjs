@@ -615,6 +615,10 @@ export default withPwa(
                     text: '1-数据结构描述',
                     link: '/flutter/数据模型/001-数据结构描述',
                   },
+                  {
+                    text: '2-类型校验',
+                    link: '/flutter/数据模型/002-类型校验',
+                  },
                 ],
               },
             ],

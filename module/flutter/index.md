@@ -152,8 +152,7 @@ tags:
 ## 11. 数据模型与序列化概念映射
 
 - [数据结构描述](./数据模型/001-数据结构描述.md)
-
-### 11.2 Zod/Yup Schema vs json_serializable/freezed
+- [类型校验](./数据模型/002-类型校验.md)
 
 ### 11.3 Immutable Object vs Freezed Data Class
 
