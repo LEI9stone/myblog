@@ -151,7 +151,7 @@ tags:
 
 ## 11. 数据模型与序列化概念映射
 
-### 11.1 TypeScript Interface vs Dart Model Class
+- [数据结构描述](./数据模型/001-数据结构描述.md)
 
 ### 11.2 Zod/Yup Schema vs json_serializable/freezed
 

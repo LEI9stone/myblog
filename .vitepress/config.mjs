@@ -608,6 +608,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '数据模型',
+                items: [
+                  {
+                    text: '1-数据结构描述',
+                    link: '/flutter/数据模型/001-数据结构描述',
+                  },
+                ],
+              },
             ],
           },
         ],
