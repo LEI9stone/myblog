@@ -719,6 +719,10 @@ export default withPwa(
                             text: '2026-05-08',
                             link: '/book/非暴力沟通/diary/26-05/08',
                           },
+                          {
+                            text: '2026-05-09',
+                            link: '/book/非暴力沟通/diary/26-05/09',
+                          },
                         ],
                       },
                     ],
