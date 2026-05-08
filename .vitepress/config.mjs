@@ -574,6 +574,10 @@ export default withPwa(
                     text: '2-拦截器',
                     link: '/flutter/网络请求/002-拦截器',
                   },
+                  {
+                    text: '3-API封装',
+                    link: '/flutter/网络请求/003-API封装',
+                  },
                 ],
               },
             ],

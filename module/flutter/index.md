@@ -140,8 +140,7 @@ tags:
 
 - [1-发起请求](./网络请求/001-发起请求.md)
 - [2-拦截器](./网络请求/002-拦截器.md)
-
-### 10.3 REST API Client vs Repository/API Service
+- [3-API封装](./网络请求/003-API封装.md)
 
 ### 10.4 JSON.parse/stringify vs json_serializable
 
