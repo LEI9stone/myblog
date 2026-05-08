@@ -153,8 +153,7 @@ tags:
 
 - [数据结构描述](./数据模型/001-数据结构描述.md)
 - [类型校验](./数据模型/002-类型校验.md)
-
-### 11.3 Immutable Object vs Freezed Data Class
+- [只读](./数据模型/003-只读.md)
 
 ### 11.4 JSON DTO vs Domain Model
 

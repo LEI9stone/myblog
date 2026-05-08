@@ -619,6 +619,10 @@ export default withPwa(
                     text: '2-类型校验',
                     link: '/flutter/数据模型/002-类型校验',
                   },
+                  {
+                    text: '3-只读',
+                    link: '/flutter/数据模型/003-只读',
+                  },
                 ],
               },
             ],
