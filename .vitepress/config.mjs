@@ -466,6 +466,10 @@ export default withPwa(
                     text: '9-状态管理',
                     link: '/flutter/组件/009-状态管理',
                   },
+                  {
+                    text: '10-组件封装',
+                    link: '/flutter/组件/010-组件封装',
+                  },
                 ],
               },
             ],

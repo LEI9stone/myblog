@@ -107,8 +107,7 @@ tags:
 - [7-受控组件](./组件/007-受控组件.md)
 - [8-渲染函数](./组件/008-渲染函数.md)
 - [9-状态管理](./组件/009-状态管理.md)
-
-### 7.10 Component Library vs Core Widgets
+- [10-组件封装](./组件/010-组件封装.md)
 
 ### 7.11 Storybook vs Widget Preview/Golden Test
 
