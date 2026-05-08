@@ -462,6 +462,10 @@ export default withPwa(
                     text: '8-渲染函数',
                     link: '/flutter/组件/008-渲染函数',
                   },
+                  {
+                    text: '9-状态管理',
+                    link: '/flutter/组件/009-状态管理',
+                  },
                 ],
               },
             ],

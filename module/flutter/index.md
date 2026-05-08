@@ -106,8 +106,7 @@ tags:
 - [6-Composition](./组件/006-Composition.md)
 - [7-受控组件](./组件/007-受控组件.md)
 - [8-渲染函数](./组件/008-渲染函数.md)
-
-### 7.9 Custom Hook vs Provider/Notifier/Controller
+- [9-状态管理](./组件/009-状态管理.md)
 
 ### 7.10 Component Library vs Core Widgets
 
