@@ -132,8 +132,7 @@ tags:
 - [5-地址查询参数](./路由导航/005-地址查询参数.md)
 - [6-地址参数](./路由导航/006-地址参数.md)
 - [7-路由守卫](./路由导航/007-路由守卫.md)
-
-### 9.8 Browser History vs Navigator Stack
+- [8-路由栈](./路由导航/008-路由栈.md)
 
 ### 9.9 Tab Navigation vs StatefulShellRoute/BottomNavigationBar
 
