@@ -545,6 +545,10 @@ export default withPwa(
                     text: '6-地址参数',
                     link: '/flutter/路由导航/006-地址参数',
                   },
+                  {
+                    text: '7-路由守卫',
+                    link: '/flutter/路由导航/007-路由守卫',
+                  },
                 ],
               },
             ],
