@@ -557,6 +557,10 @@ export default withPwa(
                     text: '9-tabbar',
                     link: '/flutter/路由导航/009-tabbar',
                   },
+                  {
+                    text: '10-应用唤起',
+                    link: '/flutter/路由导航/010-应用唤起',
+                  },
                 ],
               },
             ],
