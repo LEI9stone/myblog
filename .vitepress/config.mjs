@@ -697,6 +697,10 @@ export default withPwa(
                     text: '2-Error Boundary',
                     link: '/flutter/错误与异常/002-Error-Boundary',
                   },
+                  {
+                    text: '3-API Error',
+                    link: '/flutter/错误与异常/003-API-Error',
+                  },
                 ],
               },
             ],

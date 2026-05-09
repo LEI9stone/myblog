@@ -221,8 +221,7 @@ tags:
 
 - [错误捕获](./错误与异常/001-错误捕获.md)
 - [Error Boundary](./错误与异常/002-Error-Boundary.md)
-
-### 17.3 API Error State vs AsyncValue.error
+- [API Error](./错误与异常/003-API-Error.md)
 
 ### 17.4 Empty State vs Empty View
 
