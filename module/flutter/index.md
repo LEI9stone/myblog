@@ -174,77 +174,48 @@ tags:
 
 ## 13. 表单与输入概念映射
 
-### 13.1 HTML Form vs Form Widget
-
-### 13.2 Input/Textarea/Select vs TextField/Dropdown
-
-### 13.3 Controlled Input vs TextEditingController
-
-### 13.4 Form Validation vs Validator
-
-### 13.5 React Hook Form vs Form State Management
-
-### 13.6 Keyboard Events vs TextInputAction/FocusNode
-
-### 13.7 File Upload vs Image Picker/File Picker
-
-### 13.8 Mobile Keyboard UX vs Input Formatter/Focus Flow
+- 13.1 HTML Form vs Form Widget
+- 13.2 Input/Textarea/Select vs TextField/Dropdown
+- 13.3 Controlled Input vs TextEditingController
+- 13.4 Form Validation vs Validator
+- 13.5 React Hook Form vs Form State Management
+- 13.6 Keyboard Events vs TextInputAction/FocusNode
+- 13.7 File Upload vs Image Picker/File Picker
+- 13.8 Mobile Keyboard UX vs Input Formatter/Focus Flow
 
 ## 14. 列表、滚动与复杂页面概念映射
 
-### 14.1 map 渲染列表 vs ListView.builder
-
-### 14.2 Virtual List vs Lazy List
-
-### 14.3 Infinite Scroll vs ScrollController/Pagination
-
-### 14.4 Pull to Refresh vs RefreshIndicator
-
-### 14.5 Sticky Header vs SliverPersistentHeader
-
-### 14.6 CSS Scroll Container vs CustomScrollView
-
-### 14.7 Masonry Layout vs Staggered Grid
-
-### 14.8 Empty/Error/Loading List State vs State View Widgets
+- 14.1 map 渲染列表 vs ListView.builder
+- 14.2 Virtual List vs Lazy List
+- 14.3 Infinite Scroll vs ScrollController/Pagination
+- 14.4 Pull to Refresh vs RefreshIndicator
+- 14.5 Sticky Header vs SliverPersistentHeader
+- 14.6 CSS Scroll Container vs CustomScrollView
+- 14.7 Masonry Layout vs Staggered Grid
+- 14.8 Empty/Error/Loading List State vs State View Widgets
 
 ## 15. 图片、视频与媒体资源概念映射
 
-### 15.1 img 标签 vs Image Widget
-
-### 15.2 Background Image vs DecorationImage
-
-### 15.3 Lazy Image vs CachedNetworkImage
-
-### 15.4 SVG vs flutter_svg
-
-### 15.5 Video 标签 vs video_player
-
-### 15.6 Fullscreen Video vs Overlay/Navigator
-
-### 15.7 Image Placeholder vs Loading Skeleton
-
-### 15.8 Asset Optimization vs Flutter Asset Pipeline
+- 15.1 img 标签 vs Image Widget
+- 15.2 Background Image vs DecorationImage
+- 15.3 Lazy Image vs CachedNetworkImage
+- 15.4 SVG vs flutter_svg
+- 15.5 Video 标签 vs video_player
+- 15.6 Fullscreen Video vs Overlay/Navigator
+- 15.7 Image Placeholder vs Loading Skeleton
+- 15.8 Asset Optimization vs Flutter Asset Pipeline
 
 ## 16. 应用架构概念映射
 
-### 16.1 Web Feature Folder vs Flutter Feature Module
-
-### 16.2 Components/Pages/Services vs Widgets/Pages/Repositories
-
-### 16.3 API Layer vs Data Source
-
-### 16.4 Business Logic vs Notifier/UseCase
-
-### 16.5 Domain Model vs Entity/Model
-
-### 16.6 UI State vs View State
-
-### 16.7 Dependency Injection vs Provider Scope
-
-### 16.8 Clean Architecture vs Flutter 分层架构
-
-### 16.9 Monorepo Thinking vs Flutter App Module
+- 16.1 Web Feature Folder vs Flutter Feature Module
+- 16.2 Components/Pages/Services vs Widgets/Pages/Repositories
+- 16.3 API Layer vs Data Source
+- 16.4 Business Logic vs Notifier/UseCase
+- 16.5 Domain Model vs Entity/Model
+- 16.6 UI State vs View State
+- 16.7 Dependency Injection vs Provider Scope
+- 16.8 Clean Architecture vs Flutter 分层架构
+- 16.9 Monorepo Thinking vs Flutter App Module
 
 ## 17. 错误处理与异常状态概念映射
 
