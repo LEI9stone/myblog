@@ -162,7 +162,7 @@ tags:
 
 ## 12. 数据存储概念映射
 
-### 12.1 localStorage vs shared_preferences
+- [localStorage](./数据存储/001-localStorage.md)
 
 ### 12.2 sessionStorage vs Runtime State
 
