@@ -672,6 +672,10 @@ export default withPwa(
                     text: '6-Cache',
                     link: '/flutter/数据存储/005-Cache',
                   },
+                  {
+                    text: '7-离线数据',
+                    link: '/flutter/数据存储/007-离线数据',
+                  },
                 ],
               },
             ],

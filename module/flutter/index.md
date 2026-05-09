@@ -168,8 +168,7 @@ tags:
 - [Cookie](./数据存储/004-Cookie.md)
 - [Token](./数据存储/005-Token.md)
 - [Cache](./数据存储/006-Cache.md)
-
-### 12.7 Offline Data vs Local Database
+- [离线数据](./数据存储/007-离线数据.md)
 
 ### 12.8 Migration vs Drift Migration
 
