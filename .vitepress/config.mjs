@@ -709,6 +709,10 @@ export default withPwa(
                     text: '5-重试',
                     link: '/flutter/错误与异常/005-重试',
                   },
+                  {
+                    text: '6-提示',
+                    link: '/flutter/错误与异常/006-提示',
+                  },
                 ],
               },
             ],

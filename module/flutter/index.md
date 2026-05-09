@@ -224,8 +224,7 @@ tags:
 - [API Error](./错误与异常/003-API-Error.md)
 - [空态](./错误与异常/004-空态.md)
 - [重试](./错误与异常/005-重试.md)
-
-### 17.6 Global Error Toast vs ScaffoldMessenger/Dialog
+- [提示](./错误与异常/006-提示.md)
 
 ### 17.7 Logging vs Flutter/Dart Logging
 
