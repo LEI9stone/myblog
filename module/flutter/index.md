@@ -167,10 +167,7 @@ tags:
 - [IndexedDB](./数据存储/003-IndexedDB.md)
 - [Cookie](./数据存储/004-Cookie.md)
 - [Token](./数据存储/005-Token.md)
-
-### 12.5 Token Storage vs flutter_secure_storage
-
-### 12.6 Cache Layer vs Repository Cache
+- [Cache](./数据存储/006-Cache.md)
 
 ### 12.7 Offline Data vs Local Database
 

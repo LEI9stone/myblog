@@ -668,6 +668,10 @@ export default withPwa(
                     text: '5-Token',
                     link: '/flutter/数据存储/005-Token',
                   },
+                  {
+                    text: '6-Cache',
+                    link: '/flutter/数据存储/005-Cache',
+                  },
                 ],
               },
             ],
