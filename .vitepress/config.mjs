@@ -627,6 +627,10 @@ export default withPwa(
                     text: '4-接口响应定义',
                     link: '/flutter/数据模型/004-接口响应定义',
                   },
+                  {
+                    text: '5-联合类型',
+                    link: '/flutter/数据模型/005-联合类型',
+                  },
                 ],
               },
             ],
