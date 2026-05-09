@@ -693,6 +693,10 @@ export default withPwa(
                     text: '1-错误捕获',
                     link: '/flutter/错误与异常/001-错误捕获',
                   },
+                  {
+                    text: '2-Error Boundary',
+                    link: '/flutter/错误与异常/002-Error-Boundary',
+                  },
                 ],
               },
             ],

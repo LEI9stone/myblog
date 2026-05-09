@@ -220,8 +220,7 @@ tags:
 ## 17. 错误处理与异常状态概念映射
 
 - [错误捕获](./错误与异常/001-错误捕获.md)
-
-### 17.2 Error Boundary vs Flutter ErrorWidget/Zone
+- [Error Boundary](./错误与异常/002-Error-Boundary.md)
 
 ### 17.3 API Error State vs AsyncValue.error
 
