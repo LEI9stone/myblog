@@ -686,6 +686,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '错误与异常',
+                items: [
+                  {
+                    text: '1-错误捕获',
+                    link: '/flutter/错误与异常/001-错误捕获',
+                  },
+                ],
+              },
             ],
           },
         ],
