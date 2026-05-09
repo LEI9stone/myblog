@@ -726,6 +726,10 @@ export default withPwa(
                     text: '1-测试框架',
                     link: '/flutter/测试/001-测试框架',
                   },
+                  {
+                    text: '2-单元测试',
+                    link: '/flutter/测试/002-单元测试',
+                  },
                 ],
               },
             ],
