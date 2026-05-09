@@ -156,8 +156,7 @@ tags:
 - [只读](./数据模型/003-只读.md)
 - [接口响应定义](./数据模型/004-接口响应定义.md)
 - [联合类型](./数据模型/005-联合类型.md)
-
-### 11.6 Partial/Pick/Omit vs CopyWith/Model Split
+- [类型断言](./数据模型/006-类型断言.md)
 
 ### 11.7 Decimal/Number Precision vs decimal
 

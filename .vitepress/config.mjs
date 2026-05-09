@@ -631,6 +631,10 @@ export default withPwa(
                     text: '5-联合类型',
                     link: '/flutter/数据模型/005-联合类型',
                   },
+                  {
+                    text: '6-类型断言',
+                    link: '/flutter/数据模型/006-类型断言',
+                  },
                 ],
               },
             ],
