@@ -157,8 +157,7 @@ tags:
 - [接口响应定义](./数据模型/004-接口响应定义.md)
 - [联合类型](./数据模型/005-联合类型.md)
 - [类型断言](./数据模型/006-类型断言.md)
-
-### 11.7 Decimal/Number Precision vs decimal
+- [数字精度](./数据模型/007-数字精度.md)
 
 ### 11.8 API Schema vs Generated Model
 

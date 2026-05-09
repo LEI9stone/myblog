@@ -635,6 +635,10 @@ export default withPwa(
                     text: '6-类型断言',
                     link: '/flutter/数据模型/006-类型断言',
                   },
+                  {
+                    text: '7-数字精度',
+                    link: '/flutter/数据模型/007-数字精度',
+                  },
                 ],
               },
             ],
