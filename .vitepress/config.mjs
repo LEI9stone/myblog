@@ -676,6 +676,10 @@ export default withPwa(
                     text: '7-离线数据',
                     link: '/flutter/数据存储/007-离线数据',
                   },
+                  {
+                    text: '8-Migration',
+                    link: '/flutter/数据存储/008-Migration',
+                  },
                 ],
               },
             ],

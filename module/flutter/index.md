@@ -169,8 +169,7 @@ tags:
 - [Token](./数据存储/005-Token.md)
 - [Cache](./数据存储/006-Cache.md)
 - [离线数据](./数据存储/007-离线数据.md)
-
-### 12.8 Migration vs Drift Migration
+- [Migration](./数据存储/008-Migration.md)
 
 ### 12.9 Web Storage Security vs Mobile Secure Storage
 
