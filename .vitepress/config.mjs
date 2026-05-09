@@ -660,6 +660,10 @@ export default withPwa(
                     text: '3-IndexedDB',
                     link: '/flutter/数据存储/003-IndexedDB',
                   },
+                  {
+                    text: '4-Cookie',
+                    link: '/flutter/数据存储/004-Cookie',
+                  },
                 ],
               },
             ],

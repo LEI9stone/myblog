@@ -165,8 +165,7 @@ tags:
 - [localStorage](./数据存储/001-localStorage.md)
 - [sessionStorage](./数据存储/002-sessionStorage.md)
 - [IndexedDB](./数据存储/003-IndexedDB.md)
-
-### 12.4 Cookie vs Secure Storage/Headers
+- [Cookie](./数据存储/004-Cookie.md)
 
 ### 12.5 Token Storage vs flutter_secure_storage
 
