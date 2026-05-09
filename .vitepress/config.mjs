@@ -713,6 +713,10 @@ export default withPwa(
                     text: '6-提示',
                     link: '/flutter/错误与异常/006-提示',
                   },
+                  {
+                    text: '7-日志',
+                    link: '/flutter/错误与异常/007-日志',
+                  },
                 ],
               },
             ],
