@@ -170,8 +170,7 @@ tags:
 - [Cache](./数据存储/006-Cache.md)
 - [离线数据](./数据存储/007-离线数据.md)
 - [Migration](./数据存储/008-Migration.md)
-
-### 12.9 Web Storage Security vs Mobile Secure Storage
+- [数据安全](./数据存储/009-数据安全.md)
 
 ## 13. 表单与输入概念映射
 

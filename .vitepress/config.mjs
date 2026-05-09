@@ -680,6 +680,10 @@ export default withPwa(
                     text: '8-Migration',
                     link: '/flutter/数据存储/008-Migration',
                   },
+                  {
+                    text: '9-数据安全',
+                    link: '/flutter/数据存储/009-数据安全',
+                  },
                 ],
               },
             ],
