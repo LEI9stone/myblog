@@ -639,6 +639,10 @@ export default withPwa(
                     text: '7-数字精度',
                     link: '/flutter/数据模型/007-数字精度',
                   },
+                  {
+                    text: '8-API Schema',
+                    link: '/flutter/数据模型/008-api-schema',
+                  },
                 ],
               },
             ],
