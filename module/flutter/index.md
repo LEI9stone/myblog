@@ -163,8 +163,7 @@ tags:
 ## 12. 数据存储概念映射
 
 - [localStorage](./数据存储/001-localStorage.md)
-
-### 12.2 sessionStorage vs Runtime State
+- [sessionStorage](./数据存储/002-sessionStorage.md)
 
 ### 12.3 IndexedDB vs drift/sqlite
 

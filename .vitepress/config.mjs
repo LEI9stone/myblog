@@ -652,6 +652,10 @@ export default withPwa(
                     text: '1-localStorage',
                     link: '/flutter/数据存储/001-localStorage',
                   },
+                  {
+                    text: '2-sessionStorage',
+                    link: '/flutter/数据存储/002-sessionStorage',
+                  },
                 ],
               },
             ],
