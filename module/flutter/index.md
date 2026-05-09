@@ -222,8 +222,7 @@ tags:
 - [错误捕获](./错误与异常/001-错误捕获.md)
 - [Error Boundary](./错误与异常/002-Error-Boundary.md)
 - [API Error](./错误与异常/003-API-Error.md)
-
-### 17.4 Empty State vs Empty View
+- [空态](./错误与异常/004-空态.md)
 
 ### 17.5 Retry UI vs Reload Callback
 
