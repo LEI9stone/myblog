@@ -705,6 +705,10 @@ export default withPwa(
                     text: '4-空态',
                     link: '/flutter/错误与异常/004-空态',
                   },
+                  {
+                    text: '5-重试',
+                    link: '/flutter/错误与异常/005-重试',
+                  },
                 ],
               },
             ],
