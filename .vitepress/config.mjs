@@ -656,6 +656,10 @@ export default withPwa(
                     text: '2-sessionStorage',
                     link: '/flutter/数据存储/002-sessionStorage',
                   },
+                  {
+                    text: '3-IndexedDB',
+                    link: '/flutter/数据存储/003-IndexedDB',
+                  },
                 ],
               },
             ],

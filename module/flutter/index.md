@@ -164,8 +164,7 @@ tags:
 
 - [localStorage](./数据存储/001-localStorage.md)
 - [sessionStorage](./数据存储/002-sessionStorage.md)
-
-### 12.3 IndexedDB vs drift/sqlite
+- [IndexedDB](./数据存储/003-IndexedDB.md)
 
 ### 12.4 Cookie vs Secure Storage/Headers
 
