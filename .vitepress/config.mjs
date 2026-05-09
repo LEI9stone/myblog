@@ -623,6 +623,10 @@ export default withPwa(
                     text: '3-只读',
                     link: '/flutter/数据模型/003-只读',
                   },
+                  {
+                    text: '4-接口响应定义',
+                    link: '/flutter/数据模型/004-接口响应定义',
+                  },
                 ],
               },
             ],

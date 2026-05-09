@@ -154,8 +154,7 @@ tags:
 - [数据结构描述](./数据模型/001-数据结构描述.md)
 - [类型校验](./数据模型/002-类型校验.md)
 - [只读](./数据模型/003-只读.md)
-
-### 11.4 JSON DTO vs Domain Model
+- [接口响应定义](./数据模型/004-接口响应定义.md)
 
 ### 11.5 enum/string literal union vs Dart enum
 
