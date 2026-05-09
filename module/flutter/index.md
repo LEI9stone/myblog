@@ -166,6 +166,7 @@ tags:
 - [sessionStorage](./数据存储/002-sessionStorage.md)
 - [IndexedDB](./数据存储/003-IndexedDB.md)
 - [Cookie](./数据存储/004-Cookie.md)
+- [Token](./数据存储/005-Token.md)
 
 ### 12.5 Token Storage vs flutter_secure_storage
 
