@@ -710,6 +710,10 @@ export default withPwa(
                     text: '2-应用分层',
                     link: '/flutter/应用架构/002-应用分层',
                   },
+                  {
+                    text: '3-Data-Source',
+                    link: '/flutter/应用架构/003-Data-Source',
+                  },
                 ],
               },
               {
