@@ -804,6 +804,10 @@ export default withPwa(
                     text: '3-Install',
                     link: '/flutter/构建与发布/003-Install',
                   },
+                  {
+                    text: '4-CI&CD',
+                    link: '/flutter/构建与发布/004-CI&CD',
+                  },
                 ],
               },
             ],

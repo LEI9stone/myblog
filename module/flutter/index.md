@@ -253,8 +253,7 @@ tags:
 - [Build](./构建与发布/001-Build.md)
 - [目标平台](./构建与发布/002-目标平台.md)
 - [Install](./构建与发布/003-Install.md)
-
-### 20.4 CI/CD for Web vs CI/CD for Flutter
+- [CI/CD](./构建与发布/004-CI&CD.md)
 
 ### 20.5 App Signing vs Web Deployment
 
