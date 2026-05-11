@@ -234,8 +234,7 @@ tags:
 - [Testing Library](./测试/003-Testing-Library.md)
 - [E2E Test](./测试/004-E2E-Test.md)
 - [Shapshot Test](./测试/005-Snapshot-Test.md)
-
-### 18.6 Mock API vs Fake Repository
+- [Mock API](./测试/006-Mock-API.md)
 
 ### 18.7 Component Test vs Widget Test
 

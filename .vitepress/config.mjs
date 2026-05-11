@@ -742,6 +742,10 @@ export default withPwa(
                     text: '5-Shapshot Test',
                     link: '/flutter/测试/005-Shapshot-Test',
                   },
+                  {
+                    text: '6-Mock API',
+                    link: '/flutter/测试/006-Mock-API',
+                  },
                 ],
               },
             ],
