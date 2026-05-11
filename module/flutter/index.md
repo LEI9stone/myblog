@@ -236,8 +236,7 @@ tags:
 - [Shapshot Test](./测试/005-Snapshot-Test.md)
 - [Mock API](./测试/006-Mock-API.md)
 - [Component Test](./测试/007-Component-Test.md)
-
-### 18.8 State Test vs Provider/Notifier Test
+- [State Test](./测试/008-State-Test.md)
 
 ## 19. 调试与开发工具概念映射
 

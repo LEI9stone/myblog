@@ -750,6 +750,10 @@ export default withPwa(
                     text: '7-Component Test',
                     link: '/flutter/测试/007-Component-Test',
                   },
+                  {
+                    text: '8-State Test',
+                    link: '/flutter/测试/008-State-Test',
+                  },
                 ],
               },
             ],
