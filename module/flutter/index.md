@@ -235,8 +235,7 @@ tags:
 - [E2E Test](./测试/004-E2E-Test.md)
 - [Shapshot Test](./测试/005-Snapshot-Test.md)
 - [Mock API](./测试/006-Mock-API.md)
-
-### 18.7 Component Test vs Widget Test
+- [Component Test](./测试/007-Component-Test.md)
 
 ### 18.8 State Test vs Provider/Notifier Test
 

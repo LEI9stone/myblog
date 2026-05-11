@@ -746,6 +746,10 @@ export default withPwa(
                     text: '6-Mock API',
                     link: '/flutter/测试/006-Mock-API',
                   },
+                  {
+                    text: '7-Component Test',
+                    link: '/flutter/测试/007-Component-Test',
+                  },
                 ],
               },
             ],
