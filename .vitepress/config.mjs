@@ -783,6 +783,10 @@ export default withPwa(
                     text: '6-热更新',
                     link: '/flutter/调试/006-热更新',
                   },
+                  {
+                    text: '7-Source Map',
+                    link: '/flutter/调试/007-Source-Map',
+                  },
                 ],
               },
             ],

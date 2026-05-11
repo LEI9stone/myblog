@@ -246,8 +246,7 @@ tags:
 - [元素审查](./调试/004-元素审查.md)
 - [性能分析](./调试/005-性能分析.md)
 - [热更新](./调试/006-热更新.md)
-
-### 19.7 Source Map vs Dart Debug Symbols
+- [Source Map](./调试/007-Source-Map.md)
 
 ## 20. 构建、发布与平台能力概念映射
 
