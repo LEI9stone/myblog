@@ -816,6 +816,10 @@ export default withPwa(
                     text: '6-环境构建',
                     link: '/flutter/构建与发布/006-环境构建',
                   },
+                  {
+                    text: '7-应用权限',
+                    link: '/flutter/构建与发布/007-应用权限',
+                  },
                 ],
               },
             ],
