@@ -252,8 +252,7 @@ tags:
 
 - [Build](./构建与发布/001-Build.md)
 - [目标平台](./构建与发布/002-目标平台.md)
-
-### 20.3 PWA Install vs Native App Install
+- [Install](./构建与发布/003-Install.md)
 
 ### 20.4 CI/CD for Web vs CI/CD for Flutter
 

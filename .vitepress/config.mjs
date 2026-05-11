@@ -800,6 +800,10 @@ export default withPwa(
                     text: '2-目标平台',
                     link: '/flutter/构建与发布/002-目标平台',
                   },
+                  {
+                    text: '3-Install',
+                    link: '/flutter/构建与发布/003-Install',
+                  },
                 ],
               },
             ],
