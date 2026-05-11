@@ -756,6 +756,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '调试',
+                items: [
+                  {
+                    text: '1-DevTools',
+                    link: '/flutter/调试/001-DevTools',
+                  },
+                ],
+              },
             ],
           },
         ],
