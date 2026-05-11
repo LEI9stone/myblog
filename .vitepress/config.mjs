@@ -763,6 +763,10 @@ export default withPwa(
                     text: '1-DevTools',
                     link: '/flutter/调试/001-DevTools',
                   },
+                  {
+                    text: '2-Logger',
+                    link: '/flutter/调试/002-Logger',
+                  },
                 ],
               },
             ],

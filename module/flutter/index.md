@@ -241,8 +241,7 @@ tags:
 ## 19. 调试与开发工具概念映射
 
 - [DevTools](./调试/001-DevTools.md)
-
-### 19.2 Console Log vs debugPrint/logger
+- [Logger](./调试/002-Logger.md)
 
 ### 19.3 Network Panel vs Dio Log/Proxy
 
