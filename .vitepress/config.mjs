@@ -771,6 +771,10 @@ export default withPwa(
                     text: '3-Network',
                     link: '/flutter/调试/003-Network',
                   },
+                  {
+                    text: '4-元素审查',
+                    link: '/flutter/调试/004-元素审查',
+                  },
                 ],
               },
             ],

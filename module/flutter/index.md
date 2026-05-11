@@ -243,8 +243,7 @@ tags:
 - [DevTools](./调试/001-DevTools.md)
 - [Logger](./调试/002-Logger.md)
 - [Network](./调试/003-Network.md)
-
-### 19.4 Elements Panel vs Widget Inspector
+- [元素审查](./调试/004-元素审查.md)
 
 ### 19.5 Performance Tab vs Flutter Performance View
 
