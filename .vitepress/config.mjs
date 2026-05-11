@@ -137,6 +137,7 @@ export default withPwa(
               { text: 'flutter应用开发指南', link: '/flutter/index' },
               {
                 text: 'web到Flutter的心智模型迁移',
+                collapsed: true,
                 items: [
                   {
                     text: '1-运行时',
@@ -162,6 +163,7 @@ export default withPwa(
               },
               {
                 text: '项目结构与工程化',
+                collapsed: true,
                 items: [
                   {
                     text: '1-依赖管理',
@@ -199,6 +201,7 @@ export default withPwa(
               },
               {
                 text: 'JavaScript 和 Dart 的差异',
+                collapsed: true,
                 items: [
                   {
                     text: '1-运行时',
@@ -252,6 +255,7 @@ export default withPwa(
               },
               {
                 text: 'UI 基础：HTML/CSS 到 Flutter Widget',
+                collapsed: true,
                 items: [
                   {
                     text: '1-标签',
@@ -297,7 +301,7 @@ export default withPwa(
               },
               {
                 text: '布局与盒模型',
-                collapsed: false,
+                collapsed: true,
                 items: [
                   {
                     text: '1-通用容器',
@@ -343,6 +347,7 @@ export default withPwa(
               },
               {
                 text: '样式系统',
+                collapsed: true,
                 items: [
                   {
                     text: '1-样式命名',
@@ -388,6 +393,7 @@ export default withPwa(
               },
               {
                 text: '动画',
+                collapsed: true,
                 items: [
                   {
                     text: '1-Transition',
@@ -429,6 +435,7 @@ export default withPwa(
               },
               {
                 text: '组件',
+                collapsed: true,
                 items: [
                   {
                     text: '1-React组件',
@@ -478,6 +485,7 @@ export default withPwa(
               },
               {
                 text: '状态管理',
+                collapsed: true,
                 items: [
                   {
                     text: '1-内部状态',
@@ -523,6 +531,7 @@ export default withPwa(
               },
               {
                 text: '路由导航',
+                collapsed: true,
                 items: [
                   {
                     text: '1-路由地址',
@@ -565,6 +574,7 @@ export default withPwa(
               },
               {
                 text: '网络请求',
+                collapsed: true,
                 items: [
                   {
                     text: '1-发起请求',
@@ -610,6 +620,7 @@ export default withPwa(
               },
               {
                 text: '数据模型',
+                collapsed: true,
                 items: [
                   {
                     text: '1-数据结构描述',
@@ -647,6 +658,7 @@ export default withPwa(
               },
               {
                 text: '数据存储',
+                collapsed: true,
                 items: [
                   {
                     text: '1-localStorage',
@@ -688,6 +700,7 @@ export default withPwa(
               },
               {
                 text: '错误与异常',
+                collapsed: true,
                 items: [
                   {
                     text: '1-错误捕获',
@@ -721,6 +734,7 @@ export default withPwa(
               },
               {
                 text: '测试',
+                collapsed: true,
                 items: [
                   {
                     text: '1-测试框架',
@@ -758,6 +772,7 @@ export default withPwa(
               },
               {
                 text: '调试',
+                collapsed: true,
                 items: [
                   {
                     text: '1-DevTools',
@@ -791,6 +806,7 @@ export default withPwa(
               },
               {
                 text: '构建与发布',
+                collapsed: true,
                 items: [
                   {
                     text: '1-Build',
