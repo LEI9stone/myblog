@@ -796,6 +796,10 @@ export default withPwa(
                     text: '1-Build',
                     link: '/flutter/构建与发布/001-Build',
                   },
+                  {
+                    text: '2-目标平台',
+                    link: '/flutter/构建与发布/002-目标平台',
+                  },
                 ],
               },
             ],

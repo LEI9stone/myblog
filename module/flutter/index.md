@@ -251,8 +251,7 @@ tags:
 ## 20. 构建、发布与平台能力概念映射
 
 - [Build](./构建与发布/001-Build.md)
-
-### 20.2 Browser Target vs iOS/Android Target
+- [目标平台](./构建与发布/002-目标平台.md)
 
 ### 20.3 PWA Install vs Native App Install
 
