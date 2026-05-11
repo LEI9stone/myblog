@@ -254,8 +254,7 @@ tags:
 - [目标平台](./构建与发布/002-目标平台.md)
 - [Install](./构建与发布/003-Install.md)
 - [CI/CD](./构建与发布/004-CI&CD.md)
-
-### 20.5 App Signing vs Web Deployment
+- [应用签名](./构建与发布/005-应用签名.md)
 
 ### 20.6 Environment Build vs Flavor
 

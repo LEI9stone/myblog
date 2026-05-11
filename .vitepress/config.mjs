@@ -808,6 +808,10 @@ export default withPwa(
                     text: '4-CI&CD',
                     link: '/flutter/构建与发布/004-CI&CD',
                   },
+                  {
+                    text: '5-应用签名',
+                    link: '/flutter/构建与发布/005-应用签名',
+                  },
                 ],
               },
             ],
