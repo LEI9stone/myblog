@@ -767,6 +767,10 @@ export default withPwa(
                     text: '2-Logger',
                     link: '/flutter/调试/002-Logger',
                   },
+                  {
+                    text: '3-Network',
+                    link: '/flutter/调试/003-Network',
+                  },
                 ],
               },
             ],

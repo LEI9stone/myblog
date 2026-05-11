@@ -242,8 +242,7 @@ tags:
 
 - [DevTools](./调试/001-DevTools.md)
 - [Logger](./调试/002-Logger.md)
-
-### 19.3 Network Panel vs Dio Log/Proxy
+- [Network](./调试/003-Network.md)
 
 ### 19.4 Elements Panel vs Widget Inspector
 
