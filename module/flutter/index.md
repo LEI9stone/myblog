@@ -255,8 +255,7 @@ tags:
 - [Install](./构建与发布/003-Install.md)
 - [CI/CD](./构建与发布/004-CI&CD.md)
 - [应用签名](./构建与发布/005-应用签名.md)
-
-### 20.6 Environment Build vs Flavor
+- [环境构建](./构建与发布/006-环境构建.md)
 
 ### 20.7 Browser Permissions vs Native Permissions
 

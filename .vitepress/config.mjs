@@ -812,6 +812,10 @@ export default withPwa(
                     text: '5-应用签名',
                     link: '/flutter/构建与发布/005-应用签名',
                   },
+                  {
+                    text: '6-环境构建',
+                    link: '/flutter/构建与发布/006-环境构建',
+                  },
                 ],
               },
             ],
