@@ -706,6 +706,10 @@ export default withPwa(
                     text: '1-Folder',
                     link: '/flutter/应用架构/001-Folder',
                   },
+                  {
+                    text: '2-应用分层',
+                    link: '/flutter/应用架构/002-应用分层',
+                  },
                 ],
               },
               {

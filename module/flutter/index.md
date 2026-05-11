@@ -207,8 +207,8 @@ tags:
 
 ## 16. 应用架构概念映射
 
-- [应用分层](./应用架构/001-Folder.md)
-- 16.2 Components/Pages/Services vs Widgets/Pages/Repositories
+- [Folder](./应用架构/001-Folder.md)
+- [应用分层](./应用架构/002-应用分层.md)
 - 16.3 API Layer vs Data Source
 - 16.4 Business Logic vs Notifier/UseCase
 - 16.5 Domain Model vs Entity/Model
