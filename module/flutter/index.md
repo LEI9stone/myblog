@@ -245,8 +245,7 @@ tags:
 - [Network](./调试/003-Network.md)
 - [元素审查](./调试/004-元素审查.md)
 - [性能分析](./调试/005-性能分析.md)
-
-### 19.6 Hot Reload vs Vite HMR
+- [热更新](./调试/006-热更新.md)
 
 ### 19.7 Source Map vs Dart Debug Symbols
 

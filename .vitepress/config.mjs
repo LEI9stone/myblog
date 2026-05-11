@@ -779,6 +779,10 @@ export default withPwa(
                     text: '5-性能分析',
                     link: '/flutter/调试/005-性能分析',
                   },
+                  {
+                    text: '6-热更新',
+                    link: '/flutter/调试/006-热更新',
+                  },
                 ],
               },
             ],
