@@ -257,5 +257,4 @@ tags:
 - [应用签名](./构建与发布/005-应用签名.md)
 - [环境构建](./构建与发布/006-环境构建.md)
 - [应用权限](./构建与发布/007-应用权限.md)
-
-### 20.8 Web APIs vs Flutter Plugins
+- [Flutter Plugins](./构建与发布/008-Flutter-Plugins.md)

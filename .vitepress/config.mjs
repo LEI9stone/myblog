@@ -820,6 +820,10 @@ export default withPwa(
                     text: '7-应用权限',
                     link: '/flutter/构建与发布/007-应用权限',
                   },
+                  {
+                    text: '8-Flutter Plugins',
+                    link: '/flutter/构建与发布/008-Flutter-Plugins',
+                  },
                 ],
               },
             ],
