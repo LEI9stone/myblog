@@ -233,8 +233,7 @@ tags:
 - [单元测试](./测试/002-单元测试.md)
 - [Testing Library](./测试/003-Testing-Library.md)
 - [E2E Test](./测试/004-E2E-Test.md)
-
-### 18.5 Snapshot Test vs Golden Test
+- [Shapshot Test](./测试/005-Snapshot-Test.md)
 
 ### 18.6 Mock API vs Fake Repository
 

@@ -738,6 +738,10 @@ export default withPwa(
                     text: '4-E2E Test',
                     link: '/flutter/测试/004-E2E-Test',
                   },
+                  {
+                    text: '5-Shapshot Test',
+                    link: '/flutter/测试/005-Shapshot-Test',
+                  },
                 ],
               },
             ],
