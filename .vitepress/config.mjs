@@ -734,6 +734,10 @@ export default withPwa(
                     text: '3-Testing Library',
                     link: '/flutter/测试/003-Testing-Library',
                   },
+                  {
+                    text: '4-E2E Test',
+                    link: '/flutter/测试/004-E2E-Test',
+                  },
                 ],
               },
             ],

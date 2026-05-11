@@ -232,8 +232,7 @@ tags:
 - [测试框架](./测试/001-测试框架.md)
 - [单元测试](./测试/002-单元测试.md)
 - [Testing Library](./测试/003-Testing-Library.md)
-
-### 18.4 E2E Test vs Integration Test
+- [E2E Test](./测试/004-E2E-Test.md)
 
 ### 18.5 Snapshot Test vs Golden Test
 
