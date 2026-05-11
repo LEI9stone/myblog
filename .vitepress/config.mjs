@@ -730,6 +730,10 @@ export default withPwa(
                     text: '2-单元测试',
                     link: '/flutter/测试/002-单元测试',
                   },
+                  {
+                    text: '3-Testing Library',
+                    link: '/flutter/测试/003-Testing-Library',
+                  },
                 ],
               },
             ],
@@ -837,7 +841,7 @@ export default withPwa(
                           {
                             text: '2026-05-11',
                             link: '/book/非暴力沟通/diary/26-05/11',
-                          }
+                          },
                         ],
                       },
                     ],

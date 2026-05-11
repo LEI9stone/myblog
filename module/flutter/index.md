@@ -231,8 +231,7 @@ tags:
 
 - [测试框架](./测试/001-测试框架.md)
 - [单元测试](./测试/002-单元测试.md)
-
-### 18.3 React Testing Library vs Widget Test
+- [Testing Library](./测试/003-Testing-Library.md)
 
 ### 18.4 E2E Test vs Integration Test
 
