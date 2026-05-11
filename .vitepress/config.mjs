@@ -789,6 +789,15 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '构建与发布',
+                items: [
+                  {
+                    text: '1-Build',
+                    link: '/flutter/构建与发布/001-Build',
+                  },
+                ],
+              },
             ],
           },
         ],

@@ -250,7 +250,7 @@ tags:
 
 ## 20. 构建、发布与平台能力概念映射
 
-### 20.1 Web Build vs Flutter Build
+- [Build](./构建与发布/001-Build.md)
 
 ### 20.2 Browser Target vs iOS/Android Target
 
