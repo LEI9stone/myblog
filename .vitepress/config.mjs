@@ -699,6 +699,16 @@ export default withPwa(
                 ],
               },
               {
+                text: '应用架构',
+                collapsed: true,
+                items: [
+                  {
+                    text: '1-Folder',
+                    link: '/flutter/应用架构/001-Folder',
+                  },
+                ],
+              },
+              {
                 text: '错误与异常',
                 collapsed: true,
                 items: [
@@ -839,16 +849,6 @@ export default withPwa(
                   {
                     text: '8-Flutter Plugins',
                     link: '/flutter/构建与发布/008-Flutter-Plugins',
-                  },
-                ],
-              },
-              {
-                text: '应用架构',
-                collapsed: true,
-                items: [
-                  {
-                    text: '1-应用分层',
-                    link: '/flutter/应用架构/001-应用分层',
                   },
                 ],
               },

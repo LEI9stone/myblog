@@ -1,4 +1,13 @@
-**Web Feature Folder vs Flutter Feature Module**
+---
+title: Folder
+date: 2026-05-11
+tags:
+  - flutter
+  - app
+  - web
+---
+
+# Web Feature Folder vs Flutter Feature Module
 
 Web 项目里常按 feature 组织代码：
 
