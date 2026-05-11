@@ -244,8 +244,7 @@ tags:
 - [Logger](./调试/002-Logger.md)
 - [Network](./调试/003-Network.md)
 - [元素审查](./调试/004-元素审查.md)
-
-### 19.5 Performance Tab vs Flutter Performance View
+- [性能分析](./调试/005-性能分析.md)
 
 ### 19.6 Hot Reload vs Vite HMR
 

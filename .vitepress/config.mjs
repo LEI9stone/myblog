@@ -775,6 +775,10 @@ export default withPwa(
                     text: '4-元素审查',
                     link: '/flutter/调试/004-元素审查',
                   },
+                  {
+                    text: '5-性能分析',
+                    link: '/flutter/调试/005-性能分析',
+                  },
                 ],
               },
             ],
