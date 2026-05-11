@@ -842,6 +842,16 @@ export default withPwa(
                   },
                 ],
               },
+              {
+                text: '应用架构',
+                collapsed: true,
+                items: [
+                  {
+                    text: '1-应用分层',
+                    link: '/flutter/应用架构/001-应用分层',
+                  },
+                ],
+              },
             ],
           },
         ],
