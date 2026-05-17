@@ -970,6 +970,14 @@ export default withPwa(
                             text: '2026-05-16',
                             link: '/book/非暴力沟通/diary/26-05/16',
                           },
+                          {
+                            text: '2026-05-17',
+                            link: '/book/非暴力沟通/diary/26-05/17',
+                          },
+                          {
+                            text: '2026-05-18',
+                            link: '/book/非暴力沟通/diary/26-05/18',
+                          },
                         ],
                       },
                     ],
