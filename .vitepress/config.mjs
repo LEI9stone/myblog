@@ -1008,6 +1008,15 @@ export default withPwa(
               },
             ],
           },
+          {
+            text: '结婚流程',
+            link: '/life',
+            collapsed: false,
+            items: [
+              { text: '婚礼流程', link: '/life/婚礼流程' },
+              { text: '婚纱摄影', link: '/life/婚纱摄影' }
+            ]
+          }
         ],
       },
 
